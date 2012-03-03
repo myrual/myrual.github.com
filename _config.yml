@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://myrual.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: ram overlay
+subtitle: all about code from myrual
+author: myrual
 simple_search: http://google.com/search
 description:
 
@@ -72,12 +72,12 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user:yjh521@gmail.com
 googleplus_hidden: false
 
 # Pinboard
