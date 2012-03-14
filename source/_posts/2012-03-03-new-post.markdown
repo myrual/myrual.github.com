@@ -5,3 +5,4 @@ date: 2012-03-03 14:14
 comments: true
 categories: 
 ---
+从今开始，尝试github和octopress
