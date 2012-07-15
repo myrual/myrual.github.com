@@ -1,0 +1,8 @@
+---
+layout: post
+title: "gevent"
+date: 2012-07-15 21:00
+comments: true
+categories: 
+---
+偶然看到gevent，大概了解了一下之后，觉得会是下一个可能会用到的技术方案。 至少这货用到了epoll，而且对现有代码改动很小。 很吸引人。 等重要节点过去之后进行一次尝试，观察一下cpu占用率。

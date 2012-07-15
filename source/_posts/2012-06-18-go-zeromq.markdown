@@ -1,0 +1,12 @@
+---
+layout: post
+title: "go_zeromq"
+date: 2012-06-18 20:55
+comments: true
+categories: 
+---
+今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。剩下的是明天看看效果如何。      
+这套东西配合上zeromq， 把一切无关的细节都屏蔽了， 不需要担心给的slice不够大，也不需要read之后再按着实际读取长度把slice截取一下，只需要关心业务逻辑。整个代码清新了很多。   
+
+衷心的祝愿 zeromq早日进入linux 内核，成为标准网络通信协议。
+  
