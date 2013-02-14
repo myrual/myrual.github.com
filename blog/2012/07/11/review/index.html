@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>review - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。 最近的主要工作是反复搞测试，成果很多： 1. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://myrual.github.com/blog/2012/07/11/review/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:myrual.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Review</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-11T22:53:00+08:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。</p>
+
+<p>最近的主要工作是反复搞测试，成果很多：    <br/>
+1. 服务器端多线程编程发现一些问题，看来这玩意细节真多，数量级不到一定程度根本发现不了。
+2. 之前的框架设计现在看来很合理，应对需求变化弹性足够。      <br/>
+3. zeromq是服务器编程的利器。我现在可以做到单独重启某个模块，然后还能保证整个服务器端服务迅速恢复。<br/>
+4. 从高可用性的角度看，目前的架构需要进行一些调整，甚至是整个的重写。</p>
+
+<p>现在如此快的实现这么多的功能，完全依赖于python。 <br/>
+8年前闲的蛋疼自学python。<br/>
+2年前闲的蛋疼用python写智能卡测试脚本。<br/>
+1年前用python分析大盘走势。 <br/>
+到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
+另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-11T22:53:00+08:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2012/07/11/review/" data-via="" data-counturl="http://myrual.github.com/blog/2012/07/11/review/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/18/go-zeromq/" title="Previous Post: go_zeromq">&laquo; go_zeromq</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/07/15/gevent/" title="Next Post: gevent">gevent &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/firstpushrequest/">first Pull Request</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/10/startup/">startup</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/08/first-one/">first_one</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/31/2012-review/">2012_review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/22/microsof-3000-keyboard/">microsof_3000_keyboard</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

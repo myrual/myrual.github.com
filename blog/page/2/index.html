@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="在sacc2012的无聊时段又开始了ruby，这次还是从ruby官网开始，只不过这次快了很多。
+这次完全是利用一些琐碎时间才继续开始， 目标是可以让我对于rails有更多的了解。
+另外我已经决定只要没有意外，就去上海参加2012年的rubyconf china。 大牛很多，我要去见识一下。 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://myrual.github.com/blog/page/2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:myrual.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/16/ruby-again/">Ruby-again</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-16T23:39:00+08:00" pubdate data-updated="true">Sep 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>在sacc2012的无聊时段又开始了ruby，这次还是从ruby官网开始，只不过这次快了很多。<br/>
+这次完全是利用一些琐碎时间才继续开始， 目标是可以让我对于rails有更多的了解。<br/>
+另外我已经决定只要没有意外，就去上海参加2012年的rubyconf china。 大牛很多，我要去见识一下。这次是完全自费的， 好在飞机票不贵，住宿不贵，就是时间不好安排。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/09/block-is-so-cool/">Block_is_so_cool</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-09T20:05:00+08:00" pubdate data-updated="true">Sep 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近在异步编程的时候大量的使用了block，在设计异步处理的lib函数的时候也开始使用block。  <br/>
+带来的好处是明显的：</p>
+
+<ul>
+<li>设计lib函数的时候只需要确定自己的输入，输出，不用设计delegate，也不用迁就使用者设计特别的回调参数。</li>
+<li>使用lib函数的时候，所有的与这次调用相关的代码都在一个地方，不会分散在不同的位置。</li>
+<li>当某个业务需要多个异步处理才能完成的时候，代码逻辑异常的简单。</li>
+</ul>
+
+
+<p>缺点：</p>
+
+<ul>
+<li>block还是一个新概念，很多人不熟悉。</li>
+<li>写一个基于block的lib函数比基于run loop的麻烦很多，我总要翻翻apple的文档才写的出来。</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/03/practice/">Practice</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-03T22:04:00+08:00" pubdate data-updated="true">Sep 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近几天一直在专注的写objective c的代码，这是我在ios开发平台上必须要做的一些基本功。 也是将来做出优秀产品必须的过程，我要坚持不断的这么做下去。 这就好像一个工匠，不断的锻炼自己的手艺，即使材料变了，但是品味没变，追求没变。只要熟悉了新材料，依然有能力做出好的东西。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/02/attemp/">Attemp</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-02T22:45:00+08:00" pubdate data-updated="true">Sep 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近2个月以来，我目睹了一个项目的失败过程。 无论管理，还是技术都存在着导致失败的因素。市场上那么多功能健全的产品都存在着被淘汰的可能，这个无法完成的产品已经处在淘汰的边缘。</p>
+
+<p>不过想来这才是真实的世界，失败的尝试比成功的多很多。而我要做的，就是尽自己一切的可能，把自己想做的事情做到。这才是一个创业者应该具有的态度。 <br/>
+失败，就在前面，成功，遥不可及。 追求如此遥不可及的成功，真令人激动。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/24/new-post/">成功的结果是聪明还是努力</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-24T22:38:00+08:00" pubdate data-updated="true">Aug 24<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>看过<a href="http://techorange.com/2012/08/23/growth-mindset/">这篇</a>之后，我猛的意识到，我之前的种种对失败的恐惧和不满意都来自于此，其实我也是那种失败之后埋怨别人的聪明小孩。
+不过好在我迈出了冒险的第一步，其实没那么难，而且5个月了，我很享受这个过程。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/13/recent/">近期回顾</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-13T21:34:00+08:00" pubdate data-updated="true">Aug 13<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近一段时间主动的开始看iOS的文档，因为我预感第一个App任务要来了，我需要做好准备。 事实证明，不断的看文档能够极大的增强我的自信心。</p>
+
+<p>网络编程最近修改的不多，主要是把一些容易出问题的地方修正掉，然后开始认真的思考传输纠错的问题，事实证明这个问题比我想的要复杂的多。 看来任务艰巨。</p>
+
+<p>最近因为工作关系频繁的和老外交流，口语能力不断恢复。</p>
+
+<p>最近老板要求我开始招人，才发现真是困难。 首先是薪水不高，这导致一个很好的候选人不考虑来。 然后目前不是发布招聘信息的最佳时机。最后是我的标准似乎太高了， 凡是我打电话询问有没有合适人选的都说没有合适的。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/15/gevent/">Gevent</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-15T21:00:00+08:00" pubdate data-updated="true">Jul 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>偶然看到gevent，大概了解了一下之后，觉得会是下一个可能会用到的技术方案。 至少这货用到了epoll，而且对现有代码改动很小。 很吸引人。 等重要节点过去之后进行一次尝试，观察一下cpu占用率。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/11/review/">Review</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-11T22:53:00+08:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。</p>
+
+<p>最近的主要工作是反复搞测试，成果很多：    <br/>
+1. 服务器端多线程编程发现一些问题，看来这玩意细节真多，数量级不到一定程度根本发现不了。
+2. 之前的框架设计现在看来很合理，应对需求变化弹性足够。      <br/>
+3. zeromq是服务器编程的利器。我现在可以做到单独重启某个模块，然后还能保证整个服务器端服务迅速恢复。<br/>
+4. 从高可用性的角度看，目前的架构需要进行一些调整，甚至是整个的重写。</p>
+
+<p>现在如此快的实现这么多的功能，完全依赖于python。 <br/>
+8年前闲的蛋疼自学python。<br/>
+2年前闲的蛋疼用python写智能卡测试脚本。<br/>
+1年前用python分析大盘走势。 <br/>
+到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
+另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/18/go-zeromq/">Go_zeromq</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T20:55:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。剩下的是明天看看效果如何。    <br/>
+这套东西配合上zeromq， 把一切无关的细节都屏蔽了， 不需要担心给的slice不够大，也不需要read之后再按着实际读取长度把slice截取一下，只需要关心业务逻辑。整个代码清新了很多。</p>
+
+<p>衷心的祝愿 zeromq早日进入linux 内核，成为标准网络通信协议。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/08/go-lang/">Go-lang</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T23:00:00+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天早上写了第二个go lang程序， 测试一下UDP服务器的表现。 目前结论是在1800个线程的反复连接下，UDP服务进程的占用率上升到20%。 考虑到线程仅仅休息1ms就尝试重新连接，这个表现基本靠谱。 <br/>
+另外发现mac上面对于单个进程能够打开的文件数量是有限制的，默认为256,这就可以理解为什么之前开多线程去连接服务器会遇到250线程的限制。</p>
+
+<p>用go语言写了两个小程序之后的感受：   <br/>
+1. 语法内容少， 很容易掌握基本工具。   <br/>
+2. chan和相关的操作是简单但是经过精心设计的强有力的工具。   <br/>
+3. 具有动态语言的特性。 放弃了c语言的指针操作。提供了一些基本的高级数据结构。  <br/>
+4. 只要是需要线程间需要传送数据，就应该使用chan，而不是使用共享内存。</p>
+
+<p>我对于用go语言完成未来的TCPpush服务器感到压力不大， 而且一定一个线程对应一个socket。 这会极大的减轻后期维护的压力。</p>
+
+<p>明天继续用go写代码，看看能不能找到更加简单的方案。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/firstpushrequest/">first Pull Request</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/10/startup/">startup</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/08/first-one/">first_one</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/31/2012-review/">2012_review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/22/microsof-3000-keyboard/">microsof_3000_keyboard</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

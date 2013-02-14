@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Erlang - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="经过一个月的研究之后， 终于可以说彻底的了解和实现了p2p的握手方法。但是随后的问题就是就是在这个真实的复杂网络环境设计一套高可用性的握手协议。但是我相信只是时间问题。 当前的服务器端用的是python twisted，这是有历史原因的，因为最开始是TCP，后来才使用UDP，然后呢， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://myrual.github.com/blog/2012/05/10/come-on-erlang/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:myrual.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Erlang</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-10T21:04:00+08:00" pubdate data-updated="true">May 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>经过一个月的研究之后， 终于可以说彻底的了解和实现了p2p的握手方法。但是随后的问题就是就是在这个真实的复杂网络环境设计一套高可用性的握手协议。但是我相信只是时间问题。</p>
+
+<p>当前的服务器端用的是python twisted，这是有历史原因的，因为最开始是TCP，后来才使用UDP，然后呢，发现基于UDP的通讯其实没有用twisted的必要。 如果以后需要服务器端搞TCP编程，那么twisted确实是很好用的，逻辑很简单。 可以直接把精力和时间放在业务逻辑上。</p>
+
+<p>但是，我打算在erlang的语言学习上花点时间。因为我打算不用twisted来实现生产环境的服务器软件，因为我感觉基于UDP的通信其实没有使用twisted的必要，反而会给代码带来很多限制。</p>
+
+<p>选择新的框架基于几个因素:<br/>
+1.  要很好的支持线程. 因为线程的编程模式实在是很清晰简单的，最好搞上几万个线程而不用担心性能和内存问题。  <br/>
+2.  线程开销要小。  <br/>
+3.  速度要快。</p>
+
+<p>目前结论是erlang。<br/>
+首先支持线程模式，或者说erlang的设计目标之一就是多线程。 <br/>
+其次是线程开销很小。最后是响应速度快，据说毫秒级。<br/>
+其他是附带的优点： 基于消息模式传递数据，函数式编程。工业产品级别的语言，可靠性可以信赖。</p>
+
+<p>缺点： 新语言，估计team里面不会有人听过。 但是另外的好处意味着我和大家一样都是新手，如果我1个星期可以写出能工作的代码，别人2个星期也该学会了。</p>
+
+<p>函数式编程，我又来了。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-10T21:04:00+08:00" pubdate data-updated="true">May 10<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2012/05/10/come-on-erlang/" data-via="" data-counturl="http://myrual.github.com/blog/2012/05/10/come-on-erlang/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/04/11/ruby-tuto-memo/" title="Previous Post: ruby学习的心得体会">&laquo; ruby学习的心得体会</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/05/13/go-lang-3-hour-tuto/" title="Next Post: go_lang_3_hour_tuto">go_lang_3_hour_tuto &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/01/31/firstpushrequest/">first Pull Request</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/10/startup/">startup</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/08/first-one/">first_one</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/31/2012-review/">2012_review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/22/microsof-3000-keyboard/">microsof_3000_keyboard</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

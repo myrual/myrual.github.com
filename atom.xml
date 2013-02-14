@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://myrual.github.com/atom.xml" rel="self"/>
+  <link href="http://myrual.github.com/"/>
+  <updated>2013-02-14T23:42:07+08:00</updated>
+  <id>http://myrual.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[first Pull Request]]></title>
+    <link href="http://myrual.github.com/blog/2013/01/31/firstpushrequest/"/>
+    <updated>2013-01-31T21:46:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/01/31/firstpushrequest</id>
+    <content type="html"><![CDATA[<h6>first pull request</h6>
+
+<p>今天提交了第一个github上的pull request。 经历了第一次讨论。 不管结果如何，终于可以为开源代码做些贡献了。这是一小步，也是一个真正的开始。</p>
+
+<h5>office</h5>
+
+<p>最近项目进度稍微有点慢，主要是整个项目尚处于雏形，很多东西需要配合才能完成。 不过目前估计时间是充裕的。</p>
+
+<h5>plan</h5>
+
+<p>领导还给我派了一个活，不在份内，难度不大，但是估计不好结尾。 做的事情越来越多，何时才有时间去实践ruby on rails呢。。。。。。。</p>
+
+<p>最近在看纯银创业后的作品，真不错。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[startup]]></title>
+    <link href="http://myrual.github.com/blog/2013/01/10/startup/"/>
+    <updated>2013-01-10T20:47:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/01/10/startup</id>
+    <content type="html"><![CDATA[<h3>学习创业最好的方法就是去一个创业公司工作。</h3>
+
+<p>CES开始了，我虽然不在现场，但是当老孟顺利的演示了我们的作品的时候，我们都非常兴奋和庆幸。在随后的两天我感受到了一种CES展览之前完全没有的气氛和情绪，我能感受到每个人都被鼓舞着努力工作，似乎忘了之前的疲惫不堪。</p>
+
+<p>而我，虽然在一个公司工作领工资，却在为一个创业公司做产品，这种感觉很神奇。这是一个不可思议的机会。</p>
+
+<p>Apps应该说基本架构已经完毕，甚至主要功能都已经实现，只剩下小部分的工作。 但是我没有停止，过去三天我利用自己写的TCP通讯库，以一种更加舒服的方式实现了一个别的产品早已实现的功能。 这个过程让我很享受，因为可以反复的体会到： 从无到有，从小到大，从烂到好的螺旋上升过程。 更加重要的是，我能感受到不断的追求更好的设计带来的直接的益处：当需要添加某个新功能的时候，仅仅做一点事情就够了，发现问题的时候，debug也变的异常的容易。</p>
+
+<p>下面要做的事情就是不断coding，不断的实践。</p>
+
+<p>最近有一个想法：</p>
+
+<h3>做什么事情才是成就的主要推动力，其次是勤奋。</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[first_one]]></title>
+    <link href="http://myrual.github.com/blog/2013/01/08/first-one/"/>
+    <updated>2013-01-08T20:53:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/01/08/first-one</id>
+    <content type="html"><![CDATA[<p>转入Apps开发的第一个作品已经在CES亮相了。尽管距离最终的产品还有很长的路要走，但是产品目前表现良好，不崩溃，反应迅速。必须要真心的感谢做界面的两位同事。</p>
+
+<p>看到老孟同志辞去工作专心创业，不由得十分敬佩，也很欣慰我也在这项目里面出力。 在创业公司干就已经是非常好的很好学习创业的过程。</p>
+
+<p>在CES持续的几天中，估计没什么具体的编程任务，我打算做更多的事情，依靠高强度的设计和代码工作来强化我的iOS开发技能。经过这一段时间的实践，我对于cocoa里面的数据结构更佳熟悉了，甚至设计了一个可以放在NSSet里面的自定义类。 很好用。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2012_review]]></title>
+    <link href="http://myrual.github.com/blog/2012/12/31/2012-review/"/>
+    <updated>2012-12-31T23:47:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/12/31/2012-review</id>
+    <content type="html"><![CDATA[<p>2012年终于要结束了。今天依旧去加班了，修了一个bug，和以前的同事吃了一顿饭。早早的回家了。回家的路上想到该来一份年终总结了。</p>
+
+<h3>今年的收获很多：</h3>
+
+<ol>
+<li>换了行业。 加入了移动互联，离开了智能卡这个夕阳产业。</li>
+<li>换了技术平台。 从单片机c语言开发和测试，换到了iOS和服务器软件开发</li>
+<li>做了三个重要的项目，p2p原理的研究和实现，服务器软件的开发，iOS程序开发。可惜都无法获得项目奖金，因为都没有正式上市。</li>
+<li>参加了ruby conf和py conf。 以ruby conf收获最大，亲身见到了若干牛人，与牛人聊天收获很多。</li>
+</ol>
+
+
+<h3>个人消费和收入</h3>
+
+<p>今年买了macbook air13，galaxy note, 罗技F710，微软舒适3000套装。以及若干电子书和实体书。 还有steam一堆打折的游戏。精神物质都很丰富。</p>
+
+<p>收入上稍微低于去年。</p>
+
+<h3>这一年心情极好</h3>
+
+<h3>明年的期望：现实程度由高到低</h3>
+
+<p>今年的项目奖金都能发，能拿点股票，自己做的第一个Apps配合的产品能大卖热卖。</p>
+
+<h3>明年的计划：</h3>
+
+<ul>
+<li>掌握更多的iOS编程知识，写更多的代码，积累更多的经验。</li>
+<li>开始rails的学习和实践，希望在年底可以做出自己的一些简陋的东西。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[microsof_3000_keyboard]]></title>
+    <link href="http://myrual.github.com/blog/2012/12/22/microsof-3000-keyboard/"/>
+    <updated>2012-12-22T22:16:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/12/22/microsof-3000-keyboard</id>
+    <content type="html"><![CDATA[<h2>程序员职业病</h2>
+
+<ol>
+<li><p>长期使用笔记本电脑</p>
+
+<ul>
+<li>不良反应：颈椎很容易酸疼。</li>
+<li>解决方案：笔记本垫高到眼睛平视的高度。我花49元从亚马逊买了一个架子，虽然材质是塑料的，但是很结实，价格也就无所谓了。</li>
+</ul>
+</li>
+<li><p>长期使用笔记本键盘</p>
+
+<ul>
+<li>不良反应：手腕很容易酸疼</li>
+<li>解决方案：使用外置键盘。 我花149元买了一套微软3000键鼠套装。 键盘果然很好用。比普通的键盘果然好很多。 我已经不眼馋机械键盘了(暂时)。</li>
+</ul>
+</li>
+<li><p>长期坐着工作，缺乏锻炼</p>
+
+<ul>
+<li>不良反应：腰部容易扭伤。</li>
+<li>解决方案：多走动（用小杯，多喝茶水咖啡等，利尿，多上厕所）， 买一把好椅子(我的目标是hermen miller的aeron)</li>
+</ul>
+</li>
+</ol>
+
+
+<h3>对自己好一点，在这个吃饭，买房，看病都如此贵的年代，花几百块让自己舒服几年是多么happy的一件事情。</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[game_again_braid]]></title>
+    <link href="http://myrual.github.com/blog/2012/12/11/game-again-braid/"/>
+    <updated>2012-12-11T22:53:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/12/11/game-again-braid</id>
+    <content type="html"><![CDATA[<h1>游戏</h1>
+
+<p>过了几年之后，又操起手柄玩游戏，这次是在macbook air上玩，而不是以前的gamecube。</p>
+
+<h3>缘起</h3>
+
+<p>最近几天突然意识到自己之前纠结和思考的麻烦问题其实不在自己的工作范围内，瞬间感到轻松和愉快，心情变的莫名其妙的愉快起来。于是把很久以前就安装好的steam打开瞧瞧，正好看到valve 正在推广steam的bigpicture，就是在电视上玩pc/mac游戏，不由得蠢蠢欲动，按着官方对手柄的推荐买了F710。</p>
+
+<h3>谈谈手柄</h3>
+
+<p>手柄是罗技的F710，手感很满意，价格相对不贵。 就是mac上的配置稍微麻烦一些， 我去mac app store 买了一个软件gamepad Campain来配置手柄，果然很强大。只要软件打开，默认配置，点一下On锁定手柄。打开steam，点击bigpicture就可以进入大屏幕状态开始玩了，一切都配合的很完美。唯一的缺点是steam会弹出一个错误提示，我google 了半天也没发现结果。
+gamepad Campain的强大在于可以自定义手柄的功能，这样即使游戏不支持手柄照样可以通过mapping来完美操作。</p>
+
+<h3>steam</h3>
+
+<p>steam上的游戏真是丰富，而且价格在如今物价飞涨的背景下显的便宜多了，与电影票比起来更是超值。 braid才15RMB，一顿中午饭，够玩很久。portal2也很便宜。 而且买游戏支持支付宝！！！支付如此方便导致拥有的欲望就强烈起来。下一个是portal2, super meat boy，那些在indiegame电影里面出现的游戏都尝试来玩一玩。</p>
+
+<h3>braid</h3>
+
+<p>braid真的是一个神奇的游戏，里面的文字很棒，我只过了第一关，关卡设计很有趣。</p>
+
+<h1>工作</h1>
+
+<p>终于可以把精力完全的放在App设计上了，这意味着我在以iOS工程师身份加入新公司8个月之后真的开始iOS开发了，我很高兴。下一个宏大的目标就是做学习rails，争取在不远的将来可以独立完成 App+Server的项目。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[rubyconf2012_china]]></title>
+    <link href="http://myrual.github.com/blog/2012/11/20/rubyconf2012-china/"/>
+    <updated>2012-11-20T21:22:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/11/20/rubyconf2012-china</id>
+    <content type="html"><![CDATA[<p>我的rubyconfchina2012感受：<br/>
+1.  组织有力，很有秩序，饭的水平比pyconf2012 china好。     <br/>
+2.  干货超多，除了最后一天的最后两个主题以外，全是真材实料。 从创业经验到rails最佳实践，还有云计算如何设计架构，还有测试，还有实时网络，比pyconf2012好太多了。  <br/>
+3.  讲师给力，都是很有经验，很有创造力的人， 不得不佩服。yedingding的实时网络尤其好，一下就解开了我对http push的疑问，还有http stream的疑问。  <br/>
+4.  和xdite聊了几句，感觉她特别真诚，而且充满动力，超棒。  <br/>
+5.  参会的人中藏龙卧虎， 很容易碰到经历十分丰富的人。遇到了一个长沙来的自己开公司起起落落的大哥；还遇到了一个本科学文科，研究生学计算机，现在是资深架构师的大哥，真佩服。</p>
+
+<p>最鄙视纪念章的我我竟然买了一套纪念章， 真的是发自内心的觉得这次大会参加的特别值，所以赞助一下。以后兄弟钱多了也来赞助一次。</p>
+
+<p>至于说对于我有什么用，这个问题很难回答，为什么非要有什么用？在大会上我看到了高手是如何做，如何想，做到什么水平的，那么我将来要做的时候自然就有了目标和模仿的路径。</p>
+
+<p>另外我觉得我还是太的色了，到了那里不好好虚心请教，反而跟人家到处胡侃，嗯，半瓶子醋的货色。以后注意。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Practice]]></title>
+    <link href="http://myrual.github.com/blog/2012/11/13/practice/"/>
+    <updated>2012-11-13T05:44:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/11/13/practice</id>
+    <content type="html"><![CDATA[<p>终于可以自己按照苹果的官方文档的说法尝试一些想法了。</p>
+
+<p>按着苹果的官方文档，可以在view里面处理touch事件，于是我尝试了当手指滑动的时候也同时移动view，效果是可以移动，但是移动的时候绘图出现错误，有重影，移动的感觉很不好。 但是在controller里面捕捉事件然后做同样的操作就滑顺很多，而且没有任何重影。</p>
+
+<p>在view里面处理touch事件的好处是只要subclass一个view，然后在view里面处理就可以了。
+缺点是不能touch之后进行直接各种绘图的操作。</p>
+
+<p>在controller里面处理事件的好处是无须subclass一个view，而且做绘图操作的效果很好。
+缺点是需要自己判断touch事件触发在哪个view上了。</p>
+
+<p>很多事情都要靠真的试试才知道区别在那里。</p>
+
+<p>话说我学习iOS的速度真慢啊。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[pycon2012_china]]></title>
+    <link href="http://myrual.github.com/blog/2012/10/20/pycon2012-china/"/>
+    <updated>2012-10-20T21:46:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/10/20/pycon2012-china</id>
+    <content type="html"><![CDATA[<p>第一次自费参加这种爱好者聚会， 和完全陌生的人一起讨论一些问题。
+虽然展示的东西广告内容不少，但是和大家聊天的感受是很棒的。
+认识了几个有趣的人。
+我以为我从天津去就已经很远了，没想到有人从上海，青岛，秦皇岛，新加坡跑来参会。看来我从天津去上海参加ruby conf也是小case的。之前自己都以为自己是怪人。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[newTarget]]></title>
+    <link href="http://myrual.github.com/blog/2012/10/09/newtarget/"/>
+    <updated>2012-10-09T21:43:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/10/09/newtarget</id>
+    <content type="html"><![CDATA[<p>度过了一个安全愉快的十一，总体上满意。 <br/>
+十一之后最重要的事情就是参加rubyconf china 2012了， 这种看似和我毫无瓜葛的东西真的能让我感觉到自己在追求理想的路上没有退步。  <br/>
+自从从上一个公司辞职，我已经慢慢的开始做一些以前完全不会做的事情。<br/>
+下一步要做的就是在短时间内尽快熟悉ruby和railes，然后借此机会多和有趣的人聊天。 <br/>
+另外的长期任务就是健身和减肥了，肚子终于开始大了起来，以前的一些裤子快要没法穿了。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ruby-again]]></title>
+    <link href="http://myrual.github.com/blog/2012/09/16/ruby-again/"/>
+    <updated>2012-09-16T23:39:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/09/16/ruby-again</id>
+    <content type="html"><![CDATA[<p>在sacc2012的无聊时段又开始了ruby，这次还是从ruby官网开始，只不过这次快了很多。<br/>
+这次完全是利用一些琐碎时间才继续开始， 目标是可以让我对于rails有更多的了解。<br/>
+另外我已经决定只要没有意外，就去上海参加2012年的rubyconf china。 大牛很多，我要去见识一下。这次是完全自费的， 好在飞机票不贵，住宿不贵，就是时间不好安排。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[block_is_so_cool]]></title>
+    <link href="http://myrual.github.com/blog/2012/09/09/block-is-so-cool/"/>
+    <updated>2012-09-09T20:05:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/09/09/block-is-so-cool</id>
+    <content type="html"><![CDATA[<p>最近在异步编程的时候大量的使用了block，在设计异步处理的lib函数的时候也开始使用block。  <br/>
+带来的好处是明显的：</p>
+
+<ul>
+<li>设计lib函数的时候只需要确定自己的输入，输出，不用设计delegate，也不用迁就使用者设计特别的回调参数。</li>
+<li>使用lib函数的时候，所有的与这次调用相关的代码都在一个地方，不会分散在不同的位置。</li>
+<li>当某个业务需要多个异步处理才能完成的时候，代码逻辑异常的简单。</li>
+</ul>
+
+
+<p>缺点：</p>
+
+<ul>
+<li>block还是一个新概念，很多人不熟悉。</li>
+<li>写一个基于block的lib函数比基于run loop的麻烦很多，我总要翻翻apple的文档才写的出来。</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[practice]]></title>
+    <link href="http://myrual.github.com/blog/2012/09/03/practice/"/>
+    <updated>2012-09-03T22:04:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/09/03/practice</id>
+    <content type="html"><![CDATA[<p>最近几天一直在专注的写objective c的代码，这是我在ios开发平台上必须要做的一些基本功。 也是将来做出优秀产品必须的过程，我要坚持不断的这么做下去。 这就好像一个工匠，不断的锻炼自己的手艺，即使材料变了，但是品味没变，追求没变。只要熟悉了新材料，依然有能力做出好的东西。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[attemp]]></title>
+    <link href="http://myrual.github.com/blog/2012/09/02/attemp/"/>
+    <updated>2012-09-02T22:45:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/09/02/attemp</id>
+    <content type="html"><![CDATA[<p>最近2个月以来，我目睹了一个项目的失败过程。 无论管理，还是技术都存在着导致失败的因素。市场上那么多功能健全的产品都存在着被淘汰的可能，这个无法完成的产品已经处在淘汰的边缘。</p>
+
+<p>不过想来这才是真实的世界，失败的尝试比成功的多很多。而我要做的，就是尽自己一切的可能，把自己想做的事情做到。这才是一个创业者应该具有的态度。 <br/>
+失败，就在前面，成功，遥不可及。 追求如此遥不可及的成功，真令人激动。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[成功的结果是聪明还是努力]]></title>
+    <link href="http://myrual.github.com/blog/2012/08/24/new-post/"/>
+    <updated>2012-08-24T22:38:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/08/24/new-post</id>
+    <content type="html"><![CDATA[<p>看过<a href="http://techorange.com/2012/08/23/growth-mindset/">这篇</a>之后，我猛的意识到，我之前的种种对失败的恐惧和不满意都来自于此，其实我也是那种失败之后埋怨别人的聪明小孩。
+不过好在我迈出了冒险的第一步，其实没那么难，而且5个月了，我很享受这个过程。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[近期回顾]]></title>
+    <link href="http://myrual.github.com/blog/2012/08/13/recent/"/>
+    <updated>2012-08-13T21:34:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/08/13/recent</id>
+    <content type="html"><![CDATA[<p>最近一段时间主动的开始看iOS的文档，因为我预感第一个App任务要来了，我需要做好准备。 事实证明，不断的看文档能够极大的增强我的自信心。</p>
+
+<p>网络编程最近修改的不多，主要是把一些容易出问题的地方修正掉，然后开始认真的思考传输纠错的问题，事实证明这个问题比我想的要复杂的多。 看来任务艰巨。</p>
+
+<p>最近因为工作关系频繁的和老外交流，口语能力不断恢复。</p>
+
+<p>最近老板要求我开始招人，才发现真是困难。 首先是薪水不高，这导致一个很好的候选人不考虑来。 然后目前不是发布招聘信息的最佳时机。最后是我的标准似乎太高了， 凡是我打电话询问有没有合适人选的都说没有合适的。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[gevent]]></title>
+    <link href="http://myrual.github.com/blog/2012/07/15/gevent/"/>
+    <updated>2012-07-15T21:00:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/07/15/gevent</id>
+    <content type="html"><![CDATA[<p>偶然看到gevent，大概了解了一下之后，觉得会是下一个可能会用到的技术方案。 至少这货用到了epoll，而且对现有代码改动很小。 很吸引人。 等重要节点过去之后进行一次尝试，观察一下cpu占用率。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[review]]></title>
+    <link href="http://myrual.github.com/blog/2012/07/11/review/"/>
+    <updated>2012-07-11T22:53:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/07/11/review</id>
+    <content type="html"><![CDATA[<p>第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。</p>
+
+<p>最近的主要工作是反复搞测试，成果很多：    <br/>
+1. 服务器端多线程编程发现一些问题，看来这玩意细节真多，数量级不到一定程度根本发现不了。
+2. 之前的框架设计现在看来很合理，应对需求变化弹性足够。      <br/>
+3. zeromq是服务器编程的利器。我现在可以做到单独重启某个模块，然后还能保证整个服务器端服务迅速恢复。<br/>
+4. 从高可用性的角度看，目前的架构需要进行一些调整，甚至是整个的重写。</p>
+
+<p>现在如此快的实现这么多的功能，完全依赖于python。 <br/>
+8年前闲的蛋疼自学python。<br/>
+2年前闲的蛋疼用python写智能卡测试脚本。<br/>
+1年前用python分析大盘走势。 <br/>
+到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
+另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[go_zeromq]]></title>
+    <link href="http://myrual.github.com/blog/2012/06/18/go-zeromq/"/>
+    <updated>2012-06-18T20:55:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/06/18/go-zeromq</id>
+    <content type="html"><![CDATA[<p>今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。剩下的是明天看看效果如何。    <br/>
+这套东西配合上zeromq， 把一切无关的细节都屏蔽了， 不需要担心给的slice不够大，也不需要read之后再按着实际读取长度把slice截取一下，只需要关心业务逻辑。整个代码清新了很多。</p>
+
+<p>衷心的祝愿 zeromq早日进入linux 内核，成为标准网络通信协议。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[go-lang]]></title>
+    <link href="http://myrual.github.com/blog/2012/06/08/go-lang/"/>
+    <updated>2012-06-08T23:00:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2012/06/08/go-lang</id>
+    <content type="html"><![CDATA[<p>今天早上写了第二个go lang程序， 测试一下UDP服务器的表现。 目前结论是在1800个线程的反复连接下，UDP服务进程的占用率上升到20%。 考虑到线程仅仅休息1ms就尝试重新连接，这个表现基本靠谱。 <br/>
+另外发现mac上面对于单个进程能够打开的文件数量是有限制的，默认为256,这就可以理解为什么之前开多线程去连接服务器会遇到250线程的限制。</p>
+
+<p>用go语言写了两个小程序之后的感受：   <br/>
+1. 语法内容少， 很容易掌握基本工具。   <br/>
+2. chan和相关的操作是简单但是经过精心设计的强有力的工具。   <br/>
+3. 具有动态语言的特性。 放弃了c语言的指针操作。提供了一些基本的高级数据结构。  <br/>
+4. 只要是需要线程间需要传送数据，就应该使用chan，而不是使用共享内存。</p>
+
+<p>我对于用go语言完成未来的TCPpush服务器感到压力不大， 而且一定一个线程对应一个socket。 这会极大的减轻后期维护的压力。</p>
+
+<p>明天继续用go写代码，看看能不能找到更加简单的方案。</p>
+]]></content>
+  </entry>
+  
+</feed>
