@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="今天早上写了第二个go lang程序， 测试一下UDP服务器的表现。 目前结论是在1800个线程的反复连接下，UDP服务进程的占用率上升到20%。 考虑到线程仅仅休息1ms就尝试重新连接，这个表现基本靠谱。 另外发现mac上面对于单个进程能够打开的文件数量是有限制的，默认为256, &hellip;">
+  <meta name="description" content="今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,45 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/18/go-zeromq/">Go_zeromq</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-18T20:55:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。剩下的是明天看看效果如何。    <br/>
+这套东西配合上zeromq， 把一切无关的细节都屏蔽了， 不需要担心给的slice不够大，也不需要read之后再按着实际读取长度把slice截取一下，只需要关心业务逻辑。整个代码清新了很多。</p>
+
+<p>衷心的祝愿 zeromq早日进入linux 内核，成为标准网络通信协议。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -473,45 +512,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/31/focus-focus/">抓住主要矛盾</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-31T06:42:00+08:00" pubdate data-updated="true">Mar 31<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>不可思议的开始研究p2p的相关资料，免不了要研究一下服务器的网络编程，接触了twisted，而且用了起来。但是随着搜索更多的资料发现服务器端生产环境下似乎没有用这个的，而是erlang或者go或者nodejs来实现。早上起来的早，顺便找了找nodejs的资料，发现生产环境下用的人很多，于是兴趣来了。<br/>
-但是等等，我要做的事情不是在生产环境下搭建一个高性能网络通讯服务器，而是验证一些设计思路，现在考虑这些太早了，而且重要的是，只要协议可以稳定下来，改变随时可以开始。 <br/>
-要抓住主要矛盾，现阶段主要任务是搭建一个可以验证设计的平台基础。完成这个任务之后才是真正的恶魔般的细节<br/>
-验证了设计之后，才是真正两个东西的重构和优化。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -529,6 +529,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/16/amazing-day/">amazing day</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/02/14/it-is-a-good-review-in-2011/">it is a good review in 2011</a>
       </li>
     
@@ -542,10 +546,6 @@
     
       <li class="post">
         <a href="/blog/2013/01/08/first-one/">first_one</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/12/31/2012-review/">2012_review</a>
       </li>
     
   </ul>

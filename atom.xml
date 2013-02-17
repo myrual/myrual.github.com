@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-02-15T21:24:46+08:00</updated>
+  <updated>2013-02-17T21:30:31+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[amazing day]]></title>
+    <link href="http://myrual.github.com/blog/2013/02/16/amazing-day/"/>
+    <updated>2013-02-16T22:31:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/02/16/amazing-day</id>
+    <content type="html"><![CDATA[<p>春节放假最后一天托virushuo的福，和zhufeng以及狗叔？还有zhufeng公司的产品经理一起吃饭，听茶馆相声，聊天，赞。</p>
+
+<p>聊天中才知道zhufeng和virushuo出来创业竟然6年以上，真的发自内心的令人敬佩。</p>
+
+<p>好吧，最关键的是大家都看好智能家居，可是对于做一个系统都觉得十分困难。virushuo干脆直接等待apple tv一统江湖。 吃饭到后来，virushuo谈起他十分想做一个能知道猫每天喝了几次水的东西，但是他用的硬件是arduino，那个东西的可编程能力是十分有限的，一直没什么进展，但是即使如此，只要他和别人说起听众中的爱宠物人士就会表示一定买。我突然意识到这是一个足够小，但是又能够验证方向的产品，于是我直接说我能做。是的，舍我其谁。</p>
+
+<p>大家吃完饭告别之后，我内心激动不已。是的，我没法保证这个东西做出来一定如何，但是我觉得这可以成为试金石，试试我和我未来搭档的成色。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[it is a good review in 2011]]></title>
@@ -369,18 +384,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 1年前用python分析大盘走势。 <br/>
 到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
 另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[go_zeromq]]></title>
-    <link href="http://myrual.github.com/blog/2012/06/18/go-zeromq/"/>
-    <updated>2012-06-18T20:55:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/06/18/go-zeromq</id>
-    <content type="html"><![CDATA[<p>今天终于用go语言实现了一个TCP处理服务器，每个socket两个线程。写这个东西的目的就是想看看在amazon ec2的micro主机上用多线程的方法最多能处理多少个socket。 我觉得多线程处理tcp连接在某些情况下是特别好的选择。 而go语言是最合适的方案之一，另一个是erlang。剩下的是明天看看效果如何。    <br/>
-这套东西配合上zeromq， 把一切无关的细节都屏蔽了， 不需要担心给的slice不够大，也不需要read之后再按着实际读取长度把slice截取一下，只需要关心业务逻辑。整个代码清新了很多。</p>
-
-<p>衷心的祝愿 zeromq早日进入linux 内核，成为标准网络通信协议。</p>
 ]]></content>
   </entry>
   
