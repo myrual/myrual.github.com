@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-02-17T21:30:31+08:00</updated>
+  <updated>2013-02-28T21:50:13+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[double screen]]></title>
+    <link href="http://myrual.github.com/blog/2013/02/28/double-screen/"/>
+    <updated>2013-02-28T21:22:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/02/28/double-screen</id>
+    <content type="html"><![CDATA[<h4>曾经</h4>
+
+<p>曾经我看到很多配备双屏显示器的geek，也看到一些创业公司标配双屏显示器，搞的我十分羡慕，认定我以后有机会自己准备办公环境就一定搞一下双屏幕。 后来在办公室拿一个旧的17寸液晶也搞了一阵，但是感觉效果不是很明显。这两天搞了一个宽屏19的显示器，一下感觉爽多了。</p>
+
+<h4>why</h4>
+
+<p>经常用xcode的知道xcode里面窗口特多，而且都很有用，在13mpb上写代码和调试真的是捉襟见肘，总觉得别扭。而且objective c又是一种很罗嗦的语言，常常碰到一行代码老长的情况。如果碰到使用block的地方，屏幕宽度总是不够。 今天仅仅用了外接了一天19宽屏显示器，一下觉得心情好多了，一次能看到好多内容。</p>
+
+<p>13mpb的屏幕大小写写代码完全够用了，可是如果开word看看内部的文档，再打开safari看看苹果官方文档，再打开google chrome翻墙google搜索一些，那么基本上cmd+tab切换窗口的频率会非常高，而且这么多软件都打开，切换经常就失灵，搞的人很烦躁。双屏幕显示器可以做到不切换屏幕同时看文档，同时看代码，或者同时看wireshare 输出数据，同时在xcode里面debug，心情愉快极了。</p>
+
+<h4>so</h4>
+
+<p>只要可以，我会坚持双屏幕显示器。</p>
+
+<h4>hobby or next bigthing</h4>
+
+<p>最近一直在做一些类似玩具的东西，因为我觉得那是一个可以为之奋斗的方向。</p>
+
+<h4>更加重要的是，我害怕一些事情:</h4>
+
+<p>&#8220;你所拥有的一切都在缓慢而坚定地崩坏：理想、健康、容貌、爱好、还有残留的少年意气。生命中的乐趣开始黯淡下来，像是夜晚的白炽灯光替代了明亮的日光。随着光线变弱，感官也变得迟钝，好奇心越来越少，未来不再值得期盼，生活像个被烦恼塞满的陀螺，在惯性下没精打采地转动着。&#8221;   来自<a href="http://firecacada.blog.163.com/blog/static/707437620131169729709/">纯银老师</a>：</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[amazing day]]></title>
@@ -362,28 +391,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
     <updated>2012-07-15T21:00:00+08:00</updated>
     <id>http://myrual.github.com/blog/2012/07/15/gevent</id>
     <content type="html"><![CDATA[<p>偶然看到gevent，大概了解了一下之后，觉得会是下一个可能会用到的技术方案。 至少这货用到了epoll，而且对现有代码改动很小。 很吸引人。 等重要节点过去之后进行一次尝试，观察一下cpu占用率。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[review]]></title>
-    <link href="http://myrual.github.com/blog/2012/07/11/review/"/>
-    <updated>2012-07-11T22:53:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/07/11/review</id>
-    <content type="html"><![CDATA[<p>第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。</p>
-
-<p>最近的主要工作是反复搞测试，成果很多：    <br/>
-1. 服务器端多线程编程发现一些问题，看来这玩意细节真多，数量级不到一定程度根本发现不了。
-2. 之前的框架设计现在看来很合理，应对需求变化弹性足够。      <br/>
-3. zeromq是服务器编程的利器。我现在可以做到单独重启某个模块，然后还能保证整个服务器端服务迅速恢复。<br/>
-4. 从高可用性的角度看，目前的架构需要进行一些调整，甚至是整个的重写。</p>
-
-<p>现在如此快的实现这么多的功能，完全依赖于python。 <br/>
-8年前闲的蛋疼自学python。<br/>
-2年前闲的蛋疼用python写智能卡测试脚本。<br/>
-1年前用python分析大盘走势。 <br/>
-到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
-另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
 ]]></content>
   </entry>
   
