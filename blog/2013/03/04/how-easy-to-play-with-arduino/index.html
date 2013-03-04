@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>go_lang_3_hour_tuto - My Octopress Blog</title>
+  <title>how easy to play with arduino - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="受virshuo的启发，我决定目前的项目不会启用erlang。因为我觉得说服别人学习FP是一件靠缘分的事情，难度太大了了。而说服别人学习一门语法和c语言差不多的语言还是相对容易的。所以今天花了一点时间开始学习go。 印象：
-1. 正如很多人说的，go本身的语法内容很少。 2. &hellip;">
+  <meta name="description" content="万事俱备，只欠代码 arduino以及各种配件终于在今天全都到齐了。官方支持mac真是好啊，插usb就能用，第一个闪灯的demo一次运行成功。顺利的超乎我的想象。 用光敏电阻，探测了一下室内的光强，果然可以知道光的强弱，看来能作点有意思的东西了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://myrual.github.com/blog/2012/05/13/go-lang-3-hour-tuto/">
+  <link rel="canonical" href="http://myrual.github.com/blog/2013/03/04/how-easy-to-play-with-arduino/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +67,7 @@
   
   <header>
     
-      <h1 class="entry-title">Go_lang_3_hour_tuto</h1>
+      <h1 class="entry-title">How Easy to Play With Arduino</h1>
     
     
       <p class="meta">
@@ -84,27 +83,47 @@
   
 
 
-<time datetime="2012-05-13T22:48:00+08:00" pubdate data-updated="true">May 13<span>th</span>, 2012</time>
+<time datetime="2013-03-04T22:42:00+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>受<a href="http://www.v2ex.com/t/35526#reply16">virshuo</a>的启发，我决定目前的项目不会启用erlang。因为我觉得说服别人学习FP是一件靠缘分的事情，难度太大了了。而说服别人学习一门语法和c语言差不多的语言还是相对容易的。所以今天花了一点时间开始学习go。  <br/>
-印象：<br/>
-1. 正如很多人说的，go本身的语法内容很少。  <br/>
-2. 把数据和操作数据的方法放在一起的手段与objective c非常相似。 <br/>
-3. 命名方法也是推荐getter与变量名相同，setter使用setXyz的方式。 <br/>
-4. 支持闭包。 <br/>
-5. 没有while了，只有for。   <br/>
-6. 大括号的位置很好，我真的很喜欢。 这一点上我追随<a href="http://blog.codingnow.com/2010/11/go_prime.html">云风老师</a>。</p>
+<div class="entry-content"><h3>万事俱备，只欠代码</h3>
 
-<hr />
+<p>arduino以及各种配件终于在今天全都到齐了。官方支持mac真是好啊，插usb就能用，第一个闪灯的demo一次运行成功。顺利的超乎我的想象。</p>
 
-<p>最终，连go也不用了，所有服务器通过http提供对外服务，这样所有的负载交给IIS或者Apache。
-至于速度和性能，估计只能到时候再说。
-真的会慢么？不一定。</p>
+<p>用光敏电阻，探测了一下室内的光强，果然可以知道光的强弱，看来能作点有意思的东西了。下一步就是把rf模块在raspberry和arduino两头都转起来就并且联系上就可以了。</p>
+
+<h3>TODO</h3>
+
+<ol>
+<li>让arduino把rf模块驱动起来。预计2天。</li>
+<li>让raspberry把rf模块驱动起来。预计1周。</li>
+<li>两个模块可以对着发送数据。预计1周。</li>
+<li>网站实时获取传感器信息，预计1天。</li>
+</ol>
+
+
+<h3>Why issue management matter</h3>
+
+<p>这一阵用bitbucket的issue来驱动我的日常开发。具体流程很简单，</p>
+
+<ul>
+<li>定义任务：比如fix bug,或者实现新功能，任务定义应该满足：少写代码，快速验证效果。</li>
+<li>去issue系统上新建一个issue，bugfix自然选 bug，新功能可以选proposal或者task，系统自动分配一个issue id。然后指派给我自己。</li>
+<li>只针对单一的issue做开发，测试完毕后直接commit 代码，commit消息中 fix #issueid就可以了，系统自动把issue关掉.</li>
+</ul>
+
+
+<p>好处：
+*  成就感很高，看着issue id快速爬升
+*  任务如何完成可追溯。</p>
+
+<h3>So</h3>
+
+<p>自己的项目必须用issue管理。另外bitbucket的服务真心不贵。</p>
 </div>
 
 
@@ -127,7 +146,7 @@
   
 
 
-<time datetime="2012-05-13T22:48:00+08:00" pubdate data-updated="true">May 13<span>th</span>, 2012</time>
+<time datetime="2013-03-04T22:42:00+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2013</time>
       
 
 
@@ -135,7 +154,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2012/05/13/go-lang-3-hour-tuto/" data-via="" data-counturl="http://myrual.github.com/blog/2012/05/13/go-lang-3-hour-tuto/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2013/03/04/how-easy-to-play-with-arduino/" data-via="" data-counturl="http://myrual.github.com/blog/2013/03/04/how-easy-to-play-with-arduino/" >Tweet</a>
   
   
   
@@ -144,10 +163,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/05/10/come-on-erlang/" title="Previous Post: Erlang">&laquo; Erlang</a>
+        <a class="basic-alignment left" href="/blog/2013/02/28/double-screen/" title="Previous Post: double screen">&laquo; double screen</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/05/16/zeromq-amazing/" title="Next Post: zeromq_amazing">zeromq_amazing &raquo;</a>
       
     </p>
   </footer>

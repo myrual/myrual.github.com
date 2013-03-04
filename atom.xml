@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-02-28T21:50:13+08:00</updated>
+  <updated>2013-03-04T23:35:23+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[how easy to play with arduino]]></title>
+    <link href="http://myrual.github.com/blog/2013/03/04/how-easy-to-play-with-arduino/"/>
+    <updated>2013-03-04T22:42:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/03/04/how-easy-to-play-with-arduino</id>
+    <content type="html"><![CDATA[<h3>万事俱备，只欠代码</h3>
+
+<p>arduino以及各种配件终于在今天全都到齐了。官方支持mac真是好啊，插usb就能用，第一个闪灯的demo一次运行成功。顺利的超乎我的想象。</p>
+
+<p>用光敏电阻，探测了一下室内的光强，果然可以知道光的强弱，看来能作点有意思的东西了。下一步就是把rf模块在raspberry和arduino两头都转起来就并且联系上就可以了。</p>
+
+<h3>TODO</h3>
+
+<ol>
+<li>让arduino把rf模块驱动起来。预计2天。</li>
+<li>让raspberry把rf模块驱动起来。预计1周。</li>
+<li>两个模块可以对着发送数据。预计1周。</li>
+<li>网站实时获取传感器信息，预计1天。</li>
+</ol>
+
+
+<h3>Why issue management matter</h3>
+
+<p>这一阵用bitbucket的issue来驱动我的日常开发。具体流程很简单，</p>
+
+<ul>
+<li>定义任务：比如fix bug,或者实现新功能，任务定义应该满足：少写代码，快速验证效果。</li>
+<li>去issue系统上新建一个issue，bugfix自然选 bug，新功能可以选proposal或者task，系统自动分配一个issue id。然后指派给我自己。</li>
+<li>只针对单一的issue做开发，测试完毕后直接commit 代码，commit消息中 fix #issueid就可以了，系统自动把issue关掉.</li>
+</ul>
+
+
+<p>好处：
+*  成就感很高，看着issue id快速爬升
+*  任务如何完成可追溯。</p>
+
+<h3>So</h3>
+
+<p>自己的项目必须用issue管理。另外bitbucket的服务真心不贵。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[double screen]]></title>
@@ -382,15 +424,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 <p>最近因为工作关系频繁的和老外交流，口语能力不断恢复。</p>
 
 <p>最近老板要求我开始招人，才发现真是困难。 首先是薪水不高，这导致一个很好的候选人不考虑来。 然后目前不是发布招聘信息的最佳时机。最后是我的标准似乎太高了， 凡是我打电话询问有没有合适人选的都说没有合适的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[gevent]]></title>
-    <link href="http://myrual.github.com/blog/2012/07/15/gevent/"/>
-    <updated>2012-07-15T21:00:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/07/15/gevent</id>
-    <content type="html"><![CDATA[<p>偶然看到gevent，大概了解了一下之后，觉得会是下一个可能会用到的技术方案。 至少这货用到了epoll，而且对现有代码改动很小。 很吸引人。 等重要节点过去之后进行一次尝试，观察一下cpu占用率。</p>
 ]]></content>
   </entry>
   
