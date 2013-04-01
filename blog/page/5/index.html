@@ -9,8 +9,10 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="继续跟着视频学习，最后还是遇到问题，这次没有对比下载的习题，而是尝试自己找错误的原因。感谢xcode，感谢这几天的不断积累，通过反复看代码找到了可能的错误，然后一次成功。然后就是按着自己的意思添加一点新功能。
-">
+  <meta name="description" content="有vpn的情况下，对部分网站使用vpn，部分不用。
+在openpvn的配置文件里面，找到&#8221;redirect-gateway def1&#8221;，在这行前面加上#
+正常连接VPN
+在你的浏览器中使用10.13.0.1:3128作为http和https代理使用。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +67,89 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/21/openvpn-autoproxy-pac/">Autoproxy With Vpn</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-21T21:54:00+08:00" pubdate data-updated="true">Mar 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>有vpn的情况下，对部分网站使用vpn，部分不用。
+在openpvn的配置文件里面，找到&#8221;redirect-gateway def1&#8221;，在这行前面加上#<br/>
+正常连接VPN<br/>
+在你的浏览器中使用10.13.0.1:3128作为http和https代理使用。mac上可以安装firefox。<br/>
+如果以上步骤可以工作，那么去 https://autoproxy2pac.appspot.com/ 下载一个pac文件，记得把代理工具那里选其他，服务器选http 10.13.0.1  端口 3128<br/>
+然后在mac里面使用这个pac文件就行了。<br/>
+现在，youku，菲斯不可，特维特，qq，微薄都可以找到自己的快速通道了.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/18/shock-by-bret-victor/">来自Bret Victor的震撼</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-18T22:32:00+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://v.youku.com/v_show/id_XMzUyOTIyNzg0.html">Youku</a><br/>
+<a href="http://www.youtube.com/watch?v=PUv66718DII">youtube</a><br/>
+首先是画画。然后是游戏，然后是典型的计算机应用二分法查找，最后是如何做一个动画。整个视频看下来，展示了一个非常不可思议的方向：实时的看到设计的结果。<br/>
+感想很多，但是不继续说了，国内有人在讨论。<br/>
+<a href="http://www.v2ex.com/t/29144#reply10">v2ex</a> <br/>
+<a href="http://coolshell.cn/articles/6775.html">coolshell</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -390,79 +475,6 @@ https://github.com/gastlygem/lcthw-cn</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/03/do-something-fun/">Do Something Fun</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-03T23:16:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>有人在v2ex上发起翻译，正好是我搞了10年的c语言。那么就在非学习时间搞一些翻译，做点好事情。
-话说 k&amp;r那本经典教材难道没人看了么？哦，那是针对pascal程序员的。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/03/new-post/">New-post</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-03T14:14:00+08:00" pubdate data-updated="true">Mar 3<span>rd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>从今开始，尝试github和octopress</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -480,6 +492,14 @@ https://github.com/gastlygem/lcthw-cn</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/01/crazy-idea-start/">crazy idea start</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/27/kick-off/">kick off</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/03/23/just-write-fucking-code/">just write fucking code</a>
       </li>
     
@@ -489,14 +509,6 @@ https://github.com/gastlygem/lcthw-cn</p>
     
       <li class="post">
         <a href="/blog/2013/02/28/double-screen/">double screen</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/16/amazing-day/">amazing day</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/14/it-is-a-good-review-in-2011/">it is a good review in 2011</a>
       </li>
     
   </ul>

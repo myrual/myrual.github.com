@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-03-24T07:45:10+08:00</updated>
+  <updated>2013-04-01T21:53:36+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[crazy idea start]]></title>
+    <link href="http://myrual.github.com/blog/2013/04/01/crazy-idea-start/"/>
+    <updated>2013-04-01T20:51:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/04/01/crazy-idea-start</id>
+    <content type="html"><![CDATA[<p>我两年的前的很多想法当时看来很疯狂，现在看来其实也很疯狂。我相信我周围的很多人都不会相信工程师每天的工作环境和他的创造力成正比。 但是我相信，因为我就是工程师，我清楚的知道，更大的屏幕更爽，效率更高。
+更好的键盘能让我长时间打字手腕不会酸痛，更大的桌子让人能摆更多的东西，更舒服的椅子能让我安心写代码，而不是在不舒服的椅子上来回的调整姿势，更加安静的环境能让我集中精力去思考。</p>
+
+<p>随着我开始思考如何组织一流的工程师一起工作的时候，我惊讶的发现，即使给每个人配备1万元的电脑＋1万元办公设备，也只占用他们年薪的六分之一或者更少。 这正如joel spolsky 说过的那样，顶尖程序员的薪水比他妈的椅子和每天用的手纸贵多了，何况这个椅子号称12年保修，即使我们折半计算，也才1年1600元，一个月100多块。
+如果这个椅子对于吸引一流工程师加入很有用的话，意味着我可以每个月多花100多块，然后就可以从那些大公司拉来真正的一流工程师，我操，太他们合适了。</p>
+
+<p>好吧，下一步就是真的去执行。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[kick off]]></title>
+    <link href="http://myrual.github.com/blog/2013/03/27/kick-off/"/>
+    <updated>2013-03-27T22:23:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/03/27/kick-off</id>
+    <content type="html"><![CDATA[<p>今天董事长，经理都找我谈话，很有意思。</p>
+
+<p>董事长给我展示了他的伟大蓝图，以及我未来能够得到的各种东西。 我相信他说的是可以实现的，他只需要坚持到产品做好，剩下的就是水到渠成。只是我已经打算通过自己的努力来尝试一次，即使现在把利益放到我的手里，我也不会改变主意。</p>
+
+<p>更大的收获是两个：</p>
+
+<ol>
+<li>他告诉我智能手机与其他产品的结合是未来的方向，无论做什么，都要和智能手机联系起来。
+他是对的，所以我会持续在这个方向上做各种尝试。</li>
+<li>他跟我讲未来如果能搭建几个nasdaq上市公司，现在公司的哪些骨干可以得到很多好处的时候，没有硬件工程师的名字。
+这恰恰是我为什么不看好他的原因，他只记得住在他眼前来回晃荡的那几个产品经理，忘记了他们后面的辛勤工作的团队，他还认为只要留住了这几个人，公司就能持续发展。 我当然相信他一定能持续发展，但是他发展的速度，会比其他团队慢，而且是慢很多。因为我相信，我所坚持的精英团队思路，能够让我们实现快速迭代和快速学习。</li>
+</ol>
+
+
+<p>部门经理找我谈话是非常诚恳的，他给我讲了他如何两次创业，如何从成功走向瓶颈，并且在经历的极度痛苦之后陷入失眠，并且辛苦的漫漫恢复过来，随后如何选择重回当年参与创办的企业。而且给我讲了他创办企业过程中的经验和教训。</p>
+
+<p>只说一个收获，我意图挖的某个牛人，也曾经创业过，只不过失败了。</p>
+
+<p>晚上直属领导领导找我聊了一下，明确的说这个公司出去创业的人不少，但是目前看成功的没有。基本论调是表示了不看好。</p>
+
+<p>大概是我真的把理想从某个角落挖了出来，他们跟我反复讲创业如何困难，我的前途如何叵测，我目前的思路如何幼稚的时候，我毫无捍卫的想法，而是认真的听他们说，认真讲我的想法。</p>
+
+<p>刚毕业的时候我幻想过自己30岁的时候一定非常nb，现在我已经34岁了，只是在编程的这个领域还算ok。我想做的事情是和一群一流的人，做一个成功的事情，至于这个事情是什么，那就靠一流的人去找，总会找到得。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[just write fucking code]]></title>
@@ -418,28 +464,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
     <updated>2012-09-03T22:04:00+08:00</updated>
     <id>http://myrual.github.com/blog/2012/09/03/practice</id>
     <content type="html"><![CDATA[<p>最近几天一直在专注的写objective c的代码，这是我在ios开发平台上必须要做的一些基本功。 也是将来做出优秀产品必须的过程，我要坚持不断的这么做下去。 这就好像一个工匠，不断的锻炼自己的手艺，即使材料变了，但是品味没变，追求没变。只要熟悉了新材料，依然有能力做出好的东西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[attemp]]></title>
-    <link href="http://myrual.github.com/blog/2012/09/02/attemp/"/>
-    <updated>2012-09-02T22:45:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/09/02/attemp</id>
-    <content type="html"><![CDATA[<p>最近2个月以来，我目睹了一个项目的失败过程。 无论管理，还是技术都存在着导致失败的因素。市场上那么多功能健全的产品都存在着被淘汰的可能，这个无法完成的产品已经处在淘汰的边缘。</p>
-
-<p>不过想来这才是真实的世界，失败的尝试比成功的多很多。而我要做的，就是尽自己一切的可能，把自己想做的事情做到。这才是一个创业者应该具有的态度。 <br/>
-失败，就在前面，成功，遥不可及。 追求如此遥不可及的成功，真令人激动。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[成功的结果是聪明还是努力]]></title>
-    <link href="http://myrual.github.com/blog/2012/08/24/new-post/"/>
-    <updated>2012-08-24T22:38:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/08/24/new-post</id>
-    <content type="html"><![CDATA[<p>看过<a href="http://techorange.com/2012/08/23/growth-mindset/">这篇</a>之后，我猛的意识到，我之前的种种对失败的恐惧和不满意都来自于此，其实我也是那种失败之后埋怨别人的聪明小孩。
-不过好在我迈出了冒险的第一步，其实没那么难，而且5个月了，我很享受这个过程。</p>
 ]]></content>
   </entry>
   
