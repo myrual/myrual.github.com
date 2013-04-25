@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-04-25T12:26:03+08:00</updated>
+  <updated>2013-04-25T13:14:04+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[happy_working_day]]></title>
+    <link href="http://myrual.github.com/blog/2013/04/25/happy-working-day/"/>
+    <updated>2013-04-25T12:29:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/04/25/happy-working-day</id>
+    <content type="html"><![CDATA[<h2>so fast</h2>
+
+<p>从提出辞职到前天，我投入了几乎所有的晚上来准备下一个项目。我自己惊讶于在如此短的时间内取得如此多的成绩，但是回想一下其实所用的技术经验以及相关的知识都是过去积累下来的，不由得感慨万千。</p>
+
+<h2>身体是革命的本钱</h2>
+
+<p>中间经历了一个低潮期，那段时间我白天在办公室干不了什么事情，心中略有烦闷，仅有晚上几个小时来编码，由于连续几天睡的比较晚，导致身体状态不是很好，情绪上也有影响。于是我用游泳来调节，果然，游泳之后的状态好多了。</p>
+
+<p>前天开始走离职流程，先把我自己的物品都退了，剩下的就等领导们都从广交会回来之后签字了。</p>
+
+<p>昨天早上送孩子去幼儿园，然后回来安静的写代码，成果很多。中午吃老人做的可口饭菜，饭后看了一会无间道1。继续写代码，下午没什么成果，3点的时候出门去游泳，游泳的时候意识到下午的工作可能有点问题，好在我意识到了。游到爽后去幼儿园接孩子回家。晚上孩子上床睡觉之后继续代码。</p>
+
+<p>总结下来就是一个DHH大神说的<a href="http://37signals.com/svn/posts/3080-flipping-the-day">happy working day</a>。产出效率很高，心情愉快。这一天的经历让我越来越坚信一个事情，保持身体健康和心态愉快是把事情做好的基础。</p>
+
+<h2>27寸液晶</h2>
+
+<p>今天依然如此，早上收了昨天晚上订的dell 2713HM，安装完毕之后心情愉快的写代码，顺便微薄和微信臭显一下大显示器。顺利完成早上的任务之后吃中午饭。饭后休息一会，写点东西。
+27液晶显示器带来的是避免频繁的切换窗口，还有拉动滚动条，可以让思路不被持续的alt+tab打断。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[shenzhen]]></title>
@@ -466,31 +492,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
     <content type="html"><![CDATA[<p>在sacc2012的无聊时段又开始了ruby，这次还是从ruby官网开始，只不过这次快了很多。<br/>
 这次完全是利用一些琐碎时间才继续开始， 目标是可以让我对于rails有更多的了解。<br/>
 另外我已经决定只要没有意外，就去上海参加2012年的rubyconf china。 大牛很多，我要去见识一下。这次是完全自费的， 好在飞机票不贵，住宿不贵，就是时间不好安排。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[block_is_so_cool]]></title>
-    <link href="http://myrual.github.com/blog/2012/09/09/block-is-so-cool/"/>
-    <updated>2012-09-09T20:05:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/09/09/block-is-so-cool</id>
-    <content type="html"><![CDATA[<p>最近在异步编程的时候大量的使用了block，在设计异步处理的lib函数的时候也开始使用block。  <br/>
-带来的好处是明显的：</p>
-
-<ul>
-<li>设计lib函数的时候只需要确定自己的输入，输出，不用设计delegate，也不用迁就使用者设计特别的回调参数。</li>
-<li>使用lib函数的时候，所有的与这次调用相关的代码都在一个地方，不会分散在不同的位置。</li>
-<li>当某个业务需要多个异步处理才能完成的时候，代码逻辑异常的简单。</li>
-</ul>
-
-
-<p>缺点：</p>
-
-<ul>
-<li>block还是一个新概念，很多人不熟悉。</li>
-<li>写一个基于block的lib函数比基于run loop的麻烦很多，我总要翻翻apple的文档才写的出来。</li>
-</ul>
-
 ]]></content>
   </entry>
   
