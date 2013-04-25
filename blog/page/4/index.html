@@ -9,7 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="经过一个月的研究之后， 终于可以说彻底的了解和实现了p2p的握手方法。但是随后的问题就是就是在这个真实的复杂网络环境设计一套高可用性的握手协议。但是我相信只是时间问题。 当前的服务器端用的是python twisted，这是有历史原因的，因为最开始是TCP，后来才使用UDP，然后呢， &hellip;">
+  <meta name="description" content="受virshuo的启发，我决定目前的项目不会启用erlang。因为我觉得说服别人学习FP是一件靠缘分的事情，难度太大了了。而说服别人学习一门语法和c语言差不多的语言还是相对容易的。所以今天花了一点时间开始学习go。 印象：
+1. 正如很多人说的，go本身的语法内容很少。 2. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +65,55 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/05/13/go-lang-3-hour-tuto/">Go_lang_3_hour_tuto</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-13T22:48:00+08:00" pubdate data-updated="true">May 13<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>受<a href="http://www.v2ex.com/t/35526#reply16">virshuo</a>的启发，我决定目前的项目不会启用erlang。因为我觉得说服别人学习FP是一件靠缘分的事情，难度太大了了。而说服别人学习一门语法和c语言差不多的语言还是相对容易的。所以今天花了一点时间开始学习go。  <br/>
+印象：<br/>
+1. 正如很多人说的，go本身的语法内容很少。  <br/>
+2. 把数据和操作数据的方法放在一起的手段与objective c非常相似。 <br/>
+3. 命名方法也是推荐getter与变量名相同，setter使用setXyz的方式。 <br/>
+4. 支持闭包。 <br/>
+5. 没有while了，只有for。   <br/>
+6. 大括号的位置很好，我真的很喜欢。 这一点上我追随<a href="http://blog.codingnow.com/2010/11/go_prime.html">云风老师</a>。</p>
+
+<hr />
+
+<p>最终，连go也不用了，所有服务器通过http提供对外服务，这样所有的负载交给IIS或者Apache。
+至于速度和性能，估计只能到时候再说。
+真的会慢么？不一定。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -443,44 +493,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/22/Heard-finished-coding-now/">Come on!! Coding!!!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-22T16:59:00+08:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>终于终于所有的视频课程的教学部分都结束了，只剩下两个额外的章节。那么我剩下的事情就是把老头写过的代码由我自己再写一遍。这是学习必经阶段，必须尽可能的多做。<br/>
-回头看看，从2月7号买macbook air开始，我就选择了ios开发的路，一个半月，19个视频，其实不多，但是考虑到自己的现状，先安慰自己说还不错啦。<br/>
-从今天开始，Come on !! Coding!!!。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -498,6 +510,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/04/07/shenzhen/">shenzhen</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/04/01/crazy-idea-start/">crazy idea start</a>
       </li>
     
@@ -511,10 +527,6 @@
     
       <li class="post">
         <a href="/blog/2013/03/04/how-easy-to-play-with-arduino/">how easy to play with arduino</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/28/double-screen/">double screen</a>
       </li>
     
   </ul>

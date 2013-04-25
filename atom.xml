@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-04-01T21:53:36+08:00</updated>
+  <updated>2013-04-25T12:26:03+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[shenzhen]]></title>
+    <link href="http://myrual.github.com/blog/2013/04/07/shenzhen/"/>
+    <updated>2013-04-07T17:03:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/04/07/shenzhen</id>
+    <content type="html"><![CDATA[<p>神奇深圳之旅</p>
+
+<h3>第一天</h3>
+
+<p>到达机场最大的感受就是热，直接把线衣线裤都脱了。</p>
+
+<p>然后和笑来，李路，沙沙会合。 直接去做地铁，在坐地铁的过程中，有人看到李路的手表，于是问哪里买的，李路直接做了一次宣传，意想不到的是那个人竟然是做手表的山寨品的，直接问能否帮忙做宣传。</p>
+
+<p>然后我们到了宾馆，直接去和tx投资部门的人见面，虽说是和tx的人见面，其实我和李路聊的很嗨。
+tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结束。</p>
+
+<h3>第二天</h3>
+
+<p>郁闷的事情是我晚上睡觉忘了关窗帘，结果早上6点就醒了。</p>
+
+<p>然后上午十点看创客门的展览，很有意思，其中印象最深刻的只有两个，一个是带有蓝牙gps的自行车把。一个是给小孩子设计的电路组合。剩下大部分都是满足于自娱自乐。做3d打印的很多。</p>
+
+<p>另外和投行的人聊天很好玩。</p>
+
+<p>晚上还是几个人吃饭，很有趣。</p>
+
+<h3>第三天</h3>
+
+<p>这一天早上睡的相对好，但是肠胃似乎有些不适，而且似乎有轻微的感冒症状，好在不咳嗽，不怕冷，可能是拉肚太厉害。</p>
+
+<p>没事情干去了一次华强北买了一个mini路由，没有这个没法和raspberry通信。</p>
+
+<p>华强北的电子市场真够繁华的，无所不有。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[crazy idea start]]></title>
@@ -455,15 +491,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 <li>写一个基于block的lib函数比基于run loop的麻烦很多，我总要翻翻apple的文档才写的出来。</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[practice]]></title>
-    <link href="http://myrual.github.com/blog/2012/09/03/practice/"/>
-    <updated>2012-09-03T22:04:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/09/03/practice</id>
-    <content type="html"><![CDATA[<p>最近几天一直在专注的写objective c的代码，这是我在ios开发平台上必须要做的一些基本功。 也是将来做出优秀产品必须的过程，我要坚持不断的这么做下去。 这就好像一个工匠，不断的锻炼自己的手艺，即使材料变了，但是品味没变，追求没变。只要熟悉了新材料，依然有能力做出好的东西。</p>
 ]]></content>
   </entry>
   
