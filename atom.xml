@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-04-30T23:33:53+08:00</updated>
+  <updated>2013-05-10T21:58:00+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[depend on you]]></title>
+    <link href="http://myrual.github.com/blog/2013/05/10/depend-on-you/"/>
+    <updated>2013-05-10T21:32:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/05/10/depend-on-you</id>
+    <content type="html"><![CDATA[<p>今天是正式在家工作的第一周，还在适应和调整中。  总体来说时间的把握不够充分，前几天还好，今天就有点稍微失控。区别在于前几天进度比较快，成果多一些，而且去游泳馆锻炼了一次，今天已经是周五了，有点感觉力不从心。昨天就感觉早上起床特别困，状态不佳。 看来需要重新把生活作息时间调整一下，而且要把运动作为一个每周两次的必备项目。</p>
+
+<p>从提出离职到正式办好所有手续的这段时间，很多人问我是不是去创业了，我都回答说是几个人一起干点小东西。 因为创业对于我来说是个不合适的名词。我只是在探索一条行得通的路，有一个人提出了想法，鼓动了我，然后拉上另外几个人一起反复尝试。 我当然希望我们越快找到路越好，其实如果1年内搞定的话，我们已经足够幸运了。</p>
+
+<p>个人预测，直到6月份，我都只需要在家工作。
+等硬件的兄弟离职手续办完，就需要在他家附近租一个民宅，我们一起办公用。
+直到我们找到可行的路，我们才会真的注册公司。</p>
+
+<p>这是一条人生的新路，我需要坚持的就是面对现实，不断积累。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[不完美]]></title>
@@ -512,19 +529,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 虽然展示的东西广告内容不少，但是和大家聊天的感受是很棒的。
 认识了几个有趣的人。
 我以为我从天津去就已经很远了，没想到有人从上海，青岛，秦皇岛，新加坡跑来参会。看来我从天津去上海参加ruby conf也是小case的。之前自己都以为自己是怪人。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[newTarget]]></title>
-    <link href="http://myrual.github.com/blog/2012/10/09/newtarget/"/>
-    <updated>2012-10-09T21:43:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/10/09/newtarget</id>
-    <content type="html"><![CDATA[<p>度过了一个安全愉快的十一，总体上满意。 <br/>
-十一之后最重要的事情就是参加rubyconf china 2012了， 这种看似和我毫无瓜葛的东西真的能让我感觉到自己在追求理想的路上没有退步。  <br/>
-自从从上一个公司辞职，我已经慢慢的开始做一些以前完全不会做的事情。<br/>
-下一步要做的就是在短时间内尽快熟悉ruby和railes，然后借此机会多和有趣的人聊天。 <br/>
-另外的长期任务就是健身和减肥了，肚子终于开始大了起来，以前的一些裤子快要没法穿了。</p>
 ]]></content>
   </entry>
   
