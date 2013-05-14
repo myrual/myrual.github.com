@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-05-10T21:58:00+08:00</updated>
+  <updated>2013-05-14T21:40:17+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[home base work style ]]></title>
+    <link href="http://myrual.github.com/blog/2013/05/14/home-base-work-style/"/>
+    <updated>2013-05-14T21:09:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/05/14/home-base-work-style</id>
+    <content type="html"><![CDATA[<p>尽管从五一开始我就开始在家工作了，但是直到今天我才真的感觉效率勉强达到我满意的程度。</p>
+
+<p>第一阶段大概1周，感觉是新鲜的，我非常投入，但是同时感觉有点奇怪，很难做到十分专注。</p>
+
+<p>第二阶段大概1周，新鲜的感觉没有了，对于在家里工作已经熟悉了，效率开始下降，无法专注于真正的工作。多次出现午睡超过1小时，分心去看电影。</p>
+
+<p>反思之后，我做出了以下尝试：</p>
+
+<ol>
+<li><p>送孩子去幼儿园然后回到家以后先烧一壶开水，然后泡一杯咖啡和绿茶，喝咖啡之前看看微博和微信，之后真正的开始工作。想看的东西看了，自然工作起来就心无旁骛。</p></li>
+<li><p>正式开始工作的第一件事情就是在trello上把要做的事情都写好。然后开始逐个去做。 做好一个，把事情从doing放到done，如果耗时超过30分钟，就起来喝水，或者上个厕所，或者刷刷微博以及微信，如果有好文章要细读，在safari中打开，然后添加到阅读列表即可，不在此时花费时间。然后开始下一个任务。如此循环。效果也很好，始终沉浸在todo－doing－done的愉悦心情中。</p></li>
+<li><p>午睡时间严格限定在20分钟，并且是半躺着睡。虽然闹钟叫醒的时候还想睡，但是睁眼之后就打开ipad看看网页，几分钟后困倦的感觉就没了。喝一杯咖啡之后就进入了工作状态。 一下午都不困，而且晚上不会出现因为白天睡的太多而睡不着的情况。</p></li>
+<li><p>提前一天订一下明天的任务，估算一下做那些事情要花的时间和收益。昨天差点想一冲动下午去游泳然后去图书馆还书，冷静之后改成去旁边的大学校区快走1小时，然后将去图书馆还书的任务放在早上送孩子去幼儿园之后。事实证明这个计划是对的，早晨只多花了半个小时就把还书这件事情完成了，要是单独去一次，至少一个小时。</p></li>
+</ol>
+
+
+<p>很高兴作出了今天的改变。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[depend on you]]></title>
@@ -517,18 +542,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 <p>很多事情都要靠真的试试才知道区别在那里。</p>
 
 <p>话说我学习iOS的速度真慢啊。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[pycon2012_china]]></title>
-    <link href="http://myrual.github.com/blog/2012/10/20/pycon2012-china/"/>
-    <updated>2012-10-20T21:46:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/10/20/pycon2012-china</id>
-    <content type="html"><![CDATA[<p>第一次自费参加这种爱好者聚会， 和完全陌生的人一起讨论一些问题。
-虽然展示的东西广告内容不少，但是和大家聊天的感受是很棒的。
-认识了几个有趣的人。
-我以为我从天津去就已经很远了，没想到有人从上海，青岛，秦皇岛，新加坡跑来参会。看来我从天津去上海参加ruby conf也是小case的。之前自己都以为自己是怪人。</p>
 ]]></content>
   </entry>
   
