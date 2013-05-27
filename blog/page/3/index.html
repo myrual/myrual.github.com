@@ -9,10 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="第一次自费参加这种爱好者聚会， 和完全陌生的人一起讨论一些问题。
-虽然展示的东西广告内容不少，但是和大家聊天的感受是很棒的。
-认识了几个有趣的人。
-我以为我从天津去就已经很远了，没想到有人从上海，青岛，秦皇岛，新加坡跑来参会。看来我从天津去上海参加ruby conf也是小case的。 &hellip;">
+  <meta name="description" content="终于可以自己按照苹果的官方文档的说法尝试一些想法了。 按着苹果的官方文档，可以在view里面处理touch事件，于是我尝试了当手指滑动的时候也同时移动view，效果是可以移动，但是移动的时候绘图出现错误，有重影，移动的感觉很不好。 但是在controller里面捕捉事件然后做同样的操作就滑顺很多， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +64,54 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/13/practice/">Practice</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-13T05:44:00+08:00" pubdate data-updated="true">Nov 13<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>终于可以自己按照苹果的官方文档的说法尝试一些想法了。</p>
+
+<p>按着苹果的官方文档，可以在view里面处理touch事件，于是我尝试了当手指滑动的时候也同时移动view，效果是可以移动，但是移动的时候绘图出现错误，有重影，移动的感觉很不好。 但是在controller里面捕捉事件然后做同样的操作就滑顺很多，而且没有任何重影。</p>
+
+<p>在view里面处理touch事件的好处是只要subclass一个view，然后在view里面处理就可以了。
+缺点是不能touch之后进行直接各种绘图的操作。</p>
+
+<p>在controller里面处理事件的好处是无须subclass一个view，而且做绘图操作的效果很好。
+缺点是需要自己判断touch事件触发在哪个view上了。</p>
+
+<p>很多事情都要靠真的试试才知道区别在那里。</p>
+
+<p>话说我学习iOS的速度真慢啊。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -427,55 +472,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/07/11/review/">Review</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-07-11T22:53:00+08:00" pubdate data-updated="true">Jul 11<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>第一个关键节点即将到来，如果结果不好，直接导致项目推后，估计很多安排又要变化了。可惜目前看最大和第二大的瓶颈不在我这里，只能听天由命了。只是一旦结果不好，恐怕我的任务又要变化了，扩充队伍的计划要调整，所以近期不会主动出击招人了。</p>
-
-<p>最近的主要工作是反复搞测试，成果很多：    <br/>
-1. 服务器端多线程编程发现一些问题，看来这玩意细节真多，数量级不到一定程度根本发现不了。
-2. 之前的框架设计现在看来很合理，应对需求变化弹性足够。      <br/>
-3. zeromq是服务器编程的利器。我现在可以做到单独重启某个模块，然后还能保证整个服务器端服务迅速恢复。<br/>
-4. 从高可用性的角度看，目前的架构需要进行一些调整，甚至是整个的重写。</p>
-
-<p>现在如此快的实现这么多的功能，完全依赖于python。 <br/>
-8年前闲的蛋疼自学python。<br/>
-2年前闲的蛋疼用python写智能卡测试脚本。<br/>
-1年前用python分析大盘走势。 <br/>
-到目前为止，我完全没有用到任何python的高级特性，但是依然做了很多事情。肯定是要感谢python团队。 <br/>
-另外看起来我还是很努力学习的，当初学的时候只是觉得有用，没想到回报在这里。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/4/">&larr; Older</a>
@@ -493,6 +489,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/05/27/turn-the-direction/">turn the direction</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/05/14/home-base-work-style/">home base work style </a>
       </li>
     
@@ -506,10 +506,6 @@
     
       <li class="post">
         <a href="/blog/2013/04/25/happy-working-day/">happy_working_day</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/04/07/shenzhen/">shenzhen</a>
       </li>
     
   </ul>

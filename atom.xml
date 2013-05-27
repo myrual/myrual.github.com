@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-05-14T21:40:17+08:00</updated>
+  <updated>2013-05-28T00:06:21+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[turn the direction]]></title>
+    <link href="http://myrual.github.com/blog/2013/05/27/turn-the-direction/"/>
+    <updated>2013-05-27T23:53:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/05/27/turn-the-direction</id>
+    <content type="html"><![CDATA[<h4>第一个demo</h4>
+
+<p>第一次demo完成，但是似乎大家不是很激动。确实目前的这个水平无法让人激动，而且无法后期有巨大的改善。</p>
+
+<h4>转向</h4>
+
+<p>很快的，第二个项目要开始。这次其实差别不大，只是方向和行业完全不同，第一个任务还是demo。
+最近一周的感觉很好，各种情绪，问题，猜测，回答。期望继续下去。</p>
+
+<h4>小爱好</h4>
+
+<p>树莓派扩展版的任务稳步推进中，就等原理图设计完毕，最后评审一下，然后就是做板子了。 好几个人表示了兴趣。 看看他们拿到之后给出的反馈吧。</p>
+
+<p>这个东西的意义是我和jerry对自我的一次快速测试和学习，两个长期埋头干活的，试图通过这个东西来学习如何养活自己。我们选择的方向是我们感兴趣的，我们的出发点是满足和我有同样想法的人的需求。我们期望通过在这个方向上长期尝试下去，从而在智能硬件领域发生质变的时候可以跟的上。</p>
+
+<p>无论如何设计，产品都要为消费者提供价值。这个扩展版的价值就在于即插即用，然后将控制权真正的交给程序员。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[home base work style ]]></title>
@@ -521,27 +545,6 @@ gamepad Campain的强大在于可以自定义手柄的功能，这样即使游�
 <p>至于说对于我有什么用，这个问题很难回答，为什么非要有什么用？在大会上我看到了高手是如何做，如何想，做到什么水平的，那么我将来要做的时候自然就有了目标和模仿的路径。</p>
 
 <p>另外我觉得我还是太的色了，到了那里不好好虚心请教，反而跟人家到处胡侃，嗯，半瓶子醋的货色。以后注意。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Practice]]></title>
-    <link href="http://myrual.github.com/blog/2012/11/13/practice/"/>
-    <updated>2012-11-13T05:44:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/11/13/practice</id>
-    <content type="html"><![CDATA[<p>终于可以自己按照苹果的官方文档的说法尝试一些想法了。</p>
-
-<p>按着苹果的官方文档，可以在view里面处理touch事件，于是我尝试了当手指滑动的时候也同时移动view，效果是可以移动，但是移动的时候绘图出现错误，有重影，移动的感觉很不好。 但是在controller里面捕捉事件然后做同样的操作就滑顺很多，而且没有任何重影。</p>
-
-<p>在view里面处理touch事件的好处是只要subclass一个view，然后在view里面处理就可以了。
-缺点是不能touch之后进行直接各种绘图的操作。</p>
-
-<p>在controller里面处理事件的好处是无须subclass一个view，而且做绘图操作的效果很好。
-缺点是需要自己判断touch事件触发在哪个view上了。</p>
-
-<p>很多事情都要靠真的试试才知道区别在那里。</p>
-
-<p>话说我学习iOS的速度真慢啊。</p>
 ]]></content>
   </entry>
   
