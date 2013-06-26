@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-06-14T11:47:14+08:00</updated>
+  <updated>2013-06-26T15:56:02+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[perfect_raspberryPI_ecoSystem]]></title>
+    <link href="http://myrual.github.com/blog/2013/06/26/perfect-raspberrypi-ecosystem/"/>
+    <updated>2013-06-26T15:37:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/06/26/perfect-raspberrypi-ecosystem</id>
+    <content type="html"><![CDATA[<p>昨天到今天在找关于树莓派控制i2c的各种资料。结果令人震惊</p>
+
+<h5>javascript, nodejs</h5>
+
+<p>https://npmjs.org/package/i2c
+https://npmjs.org/package/pi-gpio</p>
+
+<h5>ruby</h5>
+
+<p>http://rubygems.org/gems/i2c</p>
+
+<h5>go</h5>
+
+<p>http://www.gmcbay.com/2013/01/i2c-programming-in-go/</p>
+
+<h5>php</h5>
+
+<p>https://github.com/tbrianjones/raspberry-pi-i2c-bus</p>
+
+<h5>c sharp</h5>
+
+<p>https://github.com/mshmelev/RPi.I2C.Net</p>
+
+<p>c和python自然是一定有的，</p>
+
+<h3>如果树莓派是一个闭源的产品，我保证，什么也没有。</h3>
+
+<p>看到以上这些库，我觉得产品展示就超级简单了，左轮前进，后退，右轮前进，后退。都有7种编程语言的实现，完美的程序员伴侣。</p>
+
+<p>都有可用的代码。哈哈哈哈。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[first mistake]]></title>
@@ -516,38 +554,6 @@ tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结�
 
 
 <h3>对自己好一点，在这个吃饭，买房，看病都如此贵的年代，花几百块让自己舒服几年是多么happy的一件事情。</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[game_again_braid]]></title>
-    <link href="http://myrual.github.com/blog/2012/12/11/game-again-braid/"/>
-    <updated>2012-12-11T22:53:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2012/12/11/game-again-braid</id>
-    <content type="html"><![CDATA[<h1>游戏</h1>
-
-<p>过了几年之后，又操起手柄玩游戏，这次是在macbook air上玩，而不是以前的gamecube。</p>
-
-<h3>缘起</h3>
-
-<p>最近几天突然意识到自己之前纠结和思考的麻烦问题其实不在自己的工作范围内，瞬间感到轻松和愉快，心情变的莫名其妙的愉快起来。于是把很久以前就安装好的steam打开瞧瞧，正好看到valve 正在推广steam的bigpicture，就是在电视上玩pc/mac游戏，不由得蠢蠢欲动，按着官方对手柄的推荐买了F710。</p>
-
-<h3>谈谈手柄</h3>
-
-<p>手柄是罗技的F710，手感很满意，价格相对不贵。 就是mac上的配置稍微麻烦一些， 我去mac app store 买了一个软件gamepad Campain来配置手柄，果然很强大。只要软件打开，默认配置，点一下On锁定手柄。打开steam，点击bigpicture就可以进入大屏幕状态开始玩了，一切都配合的很完美。唯一的缺点是steam会弹出一个错误提示，我google 了半天也没发现结果。
-gamepad Campain的强大在于可以自定义手柄的功能，这样即使游戏不支持手柄照样可以通过mapping来完美操作。</p>
-
-<h3>steam</h3>
-
-<p>steam上的游戏真是丰富，而且价格在如今物价飞涨的背景下显的便宜多了，与电影票比起来更是超值。 braid才15RMB，一顿中午饭，够玩很久。portal2也很便宜。 而且买游戏支持支付宝！！！支付如此方便导致拥有的欲望就强烈起来。下一个是portal2, super meat boy，那些在indiegame电影里面出现的游戏都尝试来玩一玩。</p>
-
-<h3>braid</h3>
-
-<p>braid真的是一个神奇的游戏，里面的文字很棒，我只过了第一关，关卡设计很有趣。</p>
-
-<h1>工作</h1>
-
-<p>终于可以把精力完全的放在App设计上了，这意味着我在以iOS工程师身份加入新公司8个月之后真的开始iOS开发了，我很高兴。下一个宏大的目标就是做学习rails，争取在不远的将来可以独立完成 App+Server的项目。</p>
 ]]></content>
   </entry>
   
