@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="最近一段时间主动的开始看iOS的文档，因为我预感第一个App任务要来了，我需要做好准备。 事实证明，不断的看文档能够极大的增强我的自信心。 网络编程最近修改的不多，主要是把一些容易出问题的地方修正掉，然后开始认真的思考传输纠错的问题，事实证明这个问题比我想的要复杂的多。 看来任务艰巨。 &hellip;">
+  <meta name="description" content="最近2个月以来，我目睹了一个项目的失败过程。 无论管理，还是技术都存在着导致失败的因素。市场上那么多功能健全的产品都存在着被淘汰的可能，这个无法完成的产品已经处在淘汰的边缘。 不过想来这才是真实的世界，失败的尝试比成功的多很多。而我要做的，就是尽自己一切的可能，把自己想做的事情做到。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -64,6 +64,82 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/02/attemp/">Attemp</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-02T22:45:00+08:00" pubdate data-updated="true">Sep 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近2个月以来，我目睹了一个项目的失败过程。 无论管理，还是技术都存在着导致失败的因素。市场上那么多功能健全的产品都存在着被淘汰的可能，这个无法完成的产品已经处在淘汰的边缘。</p>
+
+<p>不过想来这才是真实的世界，失败的尝试比成功的多很多。而我要做的，就是尽自己一切的可能，把自己想做的事情做到。这才是一个创业者应该具有的态度。 <br/>
+失败，就在前面，成功，遥不可及。 追求如此遥不可及的成功，真令人激动。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/24/new-post/">成功的结果是聪明还是努力</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-24T22:38:00+08:00" pubdate data-updated="true">Aug 24<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>看过<a href="http://techorange.com/2012/08/23/growth-mindset/">这篇</a>之后，我猛的意识到，我之前的种种对失败的恐惧和不满意都来自于此，其实我也是那种失败之后埋怨别人的聪明小孩。
+不过好在我迈出了冒险的第一步，其实没那么难，而且5个月了，我很享受这个过程。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -415,102 +491,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/05/10/come-on-erlang/">Erlang</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-05-10T21:04:00+08:00" pubdate data-updated="true">May 10<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>经过一个月的研究之后， 终于可以说彻底的了解和实现了p2p的握手方法。但是随后的问题就是就是在这个真实的复杂网络环境设计一套高可用性的握手协议。但是我相信只是时间问题。</p>
-
-<p>当前的服务器端用的是python twisted，这是有历史原因的，因为最开始是TCP，后来才使用UDP，然后呢，发现基于UDP的通讯其实没有用twisted的必要。 如果以后需要服务器端搞TCP编程，那么twisted确实是很好用的，逻辑很简单。 可以直接把精力和时间放在业务逻辑上。</p>
-
-<p>但是，我打算在erlang的语言学习上花点时间。因为我打算不用twisted来实现生产环境的服务器软件，因为我感觉基于UDP的通信其实没有使用twisted的必要，反而会给代码带来很多限制。</p>
-
-<p>选择新的框架基于几个因素:<br/>
-1.  要很好的支持线程. 因为线程的编程模式实在是很清晰简单的，最好搞上几万个线程而不用担心性能和内存问题。  <br/>
-2.  线程开销要小。  <br/>
-3.  速度要快。</p>
-
-<p>目前结论是erlang。<br/>
-首先支持线程模式，或者说erlang的设计目标之一就是多线程。 <br/>
-其次是线程开销很小。最后是响应速度快，据说毫秒级。<br/>
-其他是附带的优点： 基于消息模式传递数据，函数式编程。工业产品级别的语言，可靠性可以信赖。</p>
-
-<p>缺点： 新语言，估计team里面不会有人听过。 但是另外的好处意味着我和大家一样都是新手，如果我1个星期可以写出能工作的代码，别人2个星期也该学会了。</p>
-
-<p>函数式编程，我又来了。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/04/11/ruby-tuto-memo/">Ruby学习的心得体会</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-11T22:32:00+08:00" pubdate data-updated="true">Apr 11<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ol>
-<li>ruby 是针对对象发消息，而不是呼叫函数，类似objective c</li>
-<li>constant变量或者宏就不需要了，enum也不需要了，直接:abcd就可以了。 从1.9开始，字典类型支持:abcd作为key</li>
-<li>if else while 可以后缀</li>
-<li>块的概念提供了更多的抽象方法，反正是动态的概念，只要执行的时候有这个变量就行了。</li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -528,6 +508,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/07/12/be-small/">be_small</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/03/drive-raspberry-pi/">drive_raspberry_pi</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/06/26/perfect-raspberrypi-ecosystem/">perfect_raspberryPI_ecoSystem</a>
       </li>
     
@@ -537,14 +525,6 @@
     
       <li class="post">
         <a href="/blog/2013/05/27/turn-the-direction/">turn the direction</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/05/14/home-base-work-style/">home base work style </a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/05/10/depend-on-you/">depend on you</a>
       </li>
     
   </ul>
