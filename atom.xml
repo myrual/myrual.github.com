@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-07-12T12:31:26+08:00</updated>
+  <updated>2013-07-23T21:55:31+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hardwork_fun]]></title>
+    <link href="http://myrual.github.com/blog/2013/07/20/hardwork-fun/"/>
+    <updated>2013-07-20T18:43:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/07/20/hardwork-fun</id>
+    <content type="html"><![CDATA[<p>我终于知道最近在看小说看电影的时候所拥有的负罪感是哪里来的了。</p>
+
+<p>首先我不是一个制定计划然后严格执行的意志坚定的人，我喜欢阅读，看电影，思考等虚幻但是让我高兴的事情。但是我又清醒的意识到：即使没有长期计划，很多事情也是必须要做的，否则很多事情不会自己完成。</p>
+
+<p>我曾经迷恋GTD的方法，而且认真的执行。结果当然很好，心里很舒坦，很多事情都会有序的推进。做计划的时候，我按着一个我是一个完全的理性的人思路来进行的。可是时间一长，我就开始厌烦严格按着计划做事的生活了，太他妈无趣了。因此我就开始不做计划了。但是不做计划，又有很多事情是是不会自己完成的，虽然我对于主要矛盾没有松懈过，但是放着次要矛盾不处理也是会带来很多麻烦的。</p>
+
+<p>我终于意识到矛盾的根源是我把愉悦自己的事情和必须要做的事情对立起来了。</p>
+
+<p>计划是要做的，必须要做的事情是一定要做的，但是这并不妨碍我看电影，看书，发呆。因此解决方案就是计划不会占满我的时间，我要留一些时间来偷懒。</p>
+
+<p>每周都要锻炼一次；每周都看一本书，一个电影；每周吃一次垃圾食品比如啤酒，烤串之类的；每个月和朋友聚会一次；每个月都和朋友电话聊天一次；每周犯一个错误。</p>
+
+<p>继续让GTD来帮助我的工作，生活，但是要容得下随机事件和错误。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[be_small]]></title>
@@ -515,19 +536,6 @@ tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结�
 <p>最近有一个想法：</p>
 
 <h3>做什么事情才是成就的主要推动力，其次是勤奋。</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[first_one]]></title>
-    <link href="http://myrual.github.com/blog/2013/01/08/first-one/"/>
-    <updated>2013-01-08T20:53:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2013/01/08/first-one</id>
-    <content type="html"><![CDATA[<p>转入Apps开发的第一个作品已经在CES亮相了。尽管距离最终的产品还有很长的路要走，但是产品目前表现良好，不崩溃，反应迅速。必须要真心的感谢做界面的两位同事。</p>
-
-<p>看到老孟同志辞去工作专心创业，不由得十分敬佩，也很欣慰我也在这项目里面出力。 在创业公司干就已经是非常好的很好学习创业的过程。</p>
-
-<p>在CES持续的几天中，估计没什么具体的编程任务，我打算做更多的事情，依靠高强度的设计和代码工作来强化我的iOS开发技能。经过这一段时间的实践，我对于cocoa里面的数据结构更熟悉了，甚至设计了一个可以放在NSSet里面的自定义类。 很好用。</p>
 ]]></content>
   </entry>
   
