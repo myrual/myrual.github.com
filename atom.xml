@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-07-23T21:55:31+08:00</updated>
+  <updated>2013-07-24T23:11:37+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[hardwork]]></title>
+    <link href="http://myrual.github.com/blog/2013/07/24/hardwork/"/>
+    <updated>2013-07-24T23:06:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/07/24/hardwork</id>
+    <content type="html"><![CDATA[<p>经过前两天的预热，今天开始做一些设计，并且写一些代码，还要琢磨一下如何在板子回来之后快速有效的调试。
+一天下来，感觉基本没有闲的时候。
+本来打算晚上回家继续写点代码，但是感觉力不从心了，可能确实是疲劳了。</p>
+
+<p>还是继续坚持早点睡觉吧。</p>
+
+<p>睡觉前花109买了一个APC插座，防雷击浪涌。实在是觉得给一堆仪器和设备搞那么破的插座不靠谱，买一个放心。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hardwork_fun]]></title>
@@ -515,27 +530,6 @@ tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结�
 <p>领导还给我派了一个活，不在份内，难度不大，但是估计不好结尾。 做的事情越来越多，何时才有时间去实践ruby on rails呢。。。。。。。</p>
 
 <p>最近在看纯银创业后的作品，真不错。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[startup]]></title>
-    <link href="http://myrual.github.com/blog/2013/01/10/startup/"/>
-    <updated>2013-01-10T20:47:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2013/01/10/startup</id>
-    <content type="html"><![CDATA[<h3>学习创业最好的方法就是去一个创业公司工作。</h3>
-
-<p>CES开始了，我虽然不在现场，但是当老孟顺利的演示了我们的作品的时候，我们都非常兴奋和庆幸。在随后的两天我感受到了一种CES展览之前完全没有的气氛和情绪，我能感受到每个人都被鼓舞着努力工作，似乎忘了之前的疲惫不堪。</p>
-
-<p>而我，虽然在一个公司工作领工资，却在为一个创业公司做产品，这种感觉很神奇。这是一个不可思议的机会。</p>
-
-<p>Apps应该说基本架构已经完毕，甚至主要功能都已经实现，只剩下小部分的工作。 但是我没有停止，过去三天我利用自己写的TCP通讯库，以一种更加舒服的方式实现了一个别的产品早已实现的功能。 这个过程让我很享受，因为可以反复的体会到： 从无到有，从小到大，从烂到好的螺旋上升过程。 更加重要的是，我能感受到不断的追求更好的设计带来的直接的益处：当需要添加某个新功能的时候，仅仅做一点事情就够了，发现问题的时候，debug也变的异常的容易。</p>
-
-<p>下面要做的事情就是不断coding，不断的实践。</p>
-
-<p>最近有一个想法：</p>
-
-<h3>做什么事情才是成就的主要推动力，其次是勤奋。</h3>
 ]]></content>
   </entry>
   
