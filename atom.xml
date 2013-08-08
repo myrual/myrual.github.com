@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-07-24T23:11:37+08:00</updated>
+  <updated>2013-08-08T22:23:08+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[justTryIt]]></title>
+    <link href="http://myrual.github.com/blog/2013/08/08/justtryit/"/>
+    <updated>2013-08-08T21:56:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/08/08/justtryit</id>
+    <content type="html"><![CDATA[<p>很累，每天的时间都放在coding和思考上。回家之后就累的不愿意动脑子了，连琢磨事情的动力都不足了。其实每天估计也就6小时编程和思考，但是看来即使6小时，强度也是很大的。好在依然坚持每周两次游泳，自己的情绪和体力都还不错。</p>
+
+<p>最近一周很不顺利，绝大多数时间放在了调试代码上，这个片子速度真的是比较慢，另外调试很不方便。 原本估计这周能调试完毕，现在看来要推迟3天左右。 不过这个进度也算正常水平，毕竟这个片子我第一次用，而且我也很久没有做这么底层的编程了。 本来打算这周末加个班，但想起来周末都有聚会，生活还要继续，不加班了。</p>
+
+<p>树莓派的扩展版做好放了几天了，我都一直没有时间弄，估计弄起来就很快了。</p>
+
+<p>最近打算做一个完整产品，智能浇花提示器。 起因是我把好不容易发芽的草莓放在了户外，因为虫子太多了。 结果赶上酷热的几天，一天忘了浇水，直接挂了一片，只剩一个活着。 于是想要是有提示器就好了。 于是设计了方案。找捷哥说了说。 今天找老朋友们聊了一下我的思路，发现有这种烦恼的人不少，而且知道了有些花卉是比较贵重的，养花的人很在意，如果能有效的帮助人们提高心爱的花的成活率，那么并不贵。</p>
+
+<p>三箭齐发，压力山大。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hardwork]]></title>
@@ -509,27 +526,6 @@ tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结�
     <updated>2013-02-14T23:44:00+08:00</updated>
     <id>http://myrual.github.com/blog/2013/02/14/it-is-a-good-review-in-2011</id>
     <content type="html"><![CDATA[<p>重写了2012年的回顾，因为看到自己2011年的<a href="http://myrual.wordpress.com/">回顾</a>写很长很好。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[first Pull Request]]></title>
-    <link href="http://myrual.github.com/blog/2013/01/31/firstpushrequest/"/>
-    <updated>2013-01-31T21:46:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2013/01/31/firstpushrequest</id>
-    <content type="html"><![CDATA[<h6>first pull request</h6>
-
-<p>今天提交了第一个github上的pull request。 经历了第一次讨论。 不管结果如何，终于可以为开源代码做些贡献了。这是一小步，也是一个真正的开始。</p>
-
-<h5>office</h5>
-
-<p>最近项目进度稍微有点慢，主要是整个项目尚处于雏形，很多东西需要配合才能完成。 不过目前估计时间是充裕的。</p>
-
-<h5>plan</h5>
-
-<p>领导还给我派了一个活，不在份内，难度不大，但是估计不好结尾。 做的事情越来越多，何时才有时间去实践ruby on rails呢。。。。。。。</p>
-
-<p>最近在看纯银创业后的作品，真不错。</p>
 ]]></content>
   </entry>
   

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>go-lang - My Octopress Blog</title>
+  <title>justTryIt - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="今天早上写了第二个go lang程序， 测试一下UDP服务器的表现。 目前结论是在1800个线程的反复连接下，UDP服务进程的占用率上升到20%。 考虑到线程仅仅休息1ms就尝试重新连接，这个表现基本靠谱。 另外发现mac上面对于单个进程能够打开的文件数量是有限制的，默认为256, &hellip;">
+  <meta name="description" content="很累，每天的时间都放在coding和思考上。回家之后就累的不愿意动脑子了，连琢磨事情的动力都不足了。其实每天估计也就6小时编程和思考，但是看来即使6小时，强度也是很大的。好在依然坚持每周两次游泳，自己的情绪和体力都还不错。 最近一周很不顺利，绝大多数时间放在了调试代码上，这个片子速度真的是比较慢， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://myrual.github.com/blog/2012/06/08/go-lang/">
+  <link rel="canonical" href="http://myrual.github.com/blog/2013/08/08/justtryit/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,7 +67,7 @@
   
   <header>
     
-      <h1 class="entry-title">Go-lang</h1>
+      <h1 class="entry-title">justTryIt</h1>
     
     
       <p class="meta">
@@ -83,25 +83,22 @@
   
 
 
-<time datetime="2012-06-08T23:00:00+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+<time datetime="2013-08-08T21:56:00+08:00" pubdate data-updated="true">Aug 8<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>今天早上写了第二个go lang程序， 测试一下UDP服务器的表现。 目前结论是在1800个线程的反复连接下，UDP服务进程的占用率上升到20%。 考虑到线程仅仅休息1ms就尝试重新连接，这个表现基本靠谱。 <br/>
-另外发现mac上面对于单个进程能够打开的文件数量是有限制的，默认为256,这就可以理解为什么之前开多线程去连接服务器会遇到250线程的限制。</p>
+<div class="entry-content"><p>很累，每天的时间都放在coding和思考上。回家之后就累的不愿意动脑子了，连琢磨事情的动力都不足了。其实每天估计也就6小时编程和思考，但是看来即使6小时，强度也是很大的。好在依然坚持每周两次游泳，自己的情绪和体力都还不错。</p>
 
-<p>用go语言写了两个小程序之后的感受：   <br/>
-1. 语法内容少， 很容易掌握基本工具。   <br/>
-2. chan和相关的操作是简单但是经过精心设计的强有力的工具。   <br/>
-3. 具有动态语言的特性。 放弃了c语言的指针操作。提供了一些基本的高级数据结构。  <br/>
-4. 只要是需要线程间需要传送数据，就应该使用chan，而不是使用共享内存。</p>
+<p>最近一周很不顺利，绝大多数时间放在了调试代码上，这个片子速度真的是比较慢，另外调试很不方便。 原本估计这周能调试完毕，现在看来要推迟3天左右。 不过这个进度也算正常水平，毕竟这个片子我第一次用，而且我也很久没有做这么底层的编程了。 本来打算这周末加个班，但想起来周末都有聚会，生活还要继续，不加班了。</p>
 
-<p>我对于用go语言完成未来的TCPpush服务器感到压力不大， 而且一定一个线程对应一个socket。 这会极大的减轻后期维护的压力。</p>
+<p>树莓派的扩展版做好放了几天了，我都一直没有时间弄，估计弄起来就很快了。</p>
 
-<p>明天继续用go写代码，看看能不能找到更加简单的方案。</p>
+<p>最近打算做一个完整产品，智能浇花提示器。 起因是我把好不容易发芽的草莓放在了户外，因为虫子太多了。 结果赶上酷热的几天，一天忘了浇水，直接挂了一片，只剩一个活着。 于是想要是有提示器就好了。 于是设计了方案。找捷哥说了说。 今天找老朋友们聊了一下我的思路，发现有这种烦恼的人不少，而且知道了有些花卉是比较贵重的，养花的人很在意，如果能有效的帮助人们提高心爱的花的成活率，那么并不贵。</p>
+
+<p>三箭齐发，压力山大。</p>
 </div>
 
 
@@ -124,7 +121,7 @@
   
 
 
-<time datetime="2012-06-08T23:00:00+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+<time datetime="2013-08-08T21:56:00+08:00" pubdate data-updated="true">Aug 8<span>th</span>, 2013</time>
       
 
 
@@ -132,7 +129,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2012/06/08/go-lang/" data-via="" data-counturl="http://myrual.github.com/blog/2012/06/08/go-lang/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://myrual.github.com/blog/2013/08/08/justtryit/" data-via="" data-counturl="http://myrual.github.com/blog/2013/08/08/justtryit/" >Tweet</a>
   
   
   
@@ -141,10 +138,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/06/06/how-about-now/" title="Previous Post: how_about_now">&laquo; how_about_now</a>
+        <a class="basic-alignment left" href="/blog/2013/07/24/hardwork/" title="Previous Post: hardwork">&laquo; hardwork</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/06/18/go-zeromq/" title="Next Post: go_zeromq">go_zeromq &raquo;</a>
       
     </p>
   </footer>
