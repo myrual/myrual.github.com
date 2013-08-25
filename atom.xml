@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://myrual.github.com/atom.xml" rel="self"/>
   <link href="http://myrual.github.com/"/>
-  <updated>2013-08-08T22:23:08+08:00</updated>
+  <updated>2013-08-25T12:18:28+08:00</updated>
   <id>http://myrual.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ch341_usb_serial_driver]]></title>
+    <link href="http://myrual.github.com/blog/2013/08/25/ch341-usb-serial-driver/"/>
+    <updated>2013-08-25T12:12:00+08:00</updated>
+    <id>http://myrual.github.com/blog/2013/08/25/ch341-usb-serial-driver</id>
+    <content type="html"><![CDATA[<p>if you found your usb-serial adapter hardware id in windows is USB\VID_4348&amp;PID_5523, that means the chip inside the adapter come from wch.cn.</p>
+
+<p>You can download drivers for windows from  <a href="http://www.wch.cn/download/list.asp?id=5">here</a></p>
+
+<p>For mac <a href="http://www.wch.cn/download/down.asp?id=178">here</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[justTryIt]]></title>
@@ -517,15 +530,6 @@ tx的人走了以后，我们继续找地方喝点啤酒，一直到12点才结�
 <p>好吧，最关键的是大家都看好智能家居，可是对于做一个系统都觉得十分困难。virushuo干脆直接等待apple tv一统江湖。 吃饭到后来，virushuo谈起他十分想做一个能知道猫每天喝了几次水的东西，但是他用的硬件是arduino，那个东西的可编程能力是十分有限的，一直没什么进展，但是即使如此，只要他和别人说起听众中的爱宠物人士就会表示一定买。我突然意识到这是一个足够小，但是又能够验证方向的产品，于是我直接说我能做。是的，舍我其谁。</p>
 
 <p>大家吃完饭告别之后，我内心激动不已。是的，我没法保证这个东西做出来一定如何，但是我觉得这可以成为试金石，试试我和我未来搭档的成色。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[it is a good review in 2011]]></title>
-    <link href="http://myrual.github.com/blog/2013/02/14/it-is-a-good-review-in-2011/"/>
-    <updated>2013-02-14T23:44:00+08:00</updated>
-    <id>http://myrual.github.com/blog/2013/02/14/it-is-a-good-review-in-2011</id>
-    <content type="html"><![CDATA[<p>重写了2012年的回顾，因为看到自己2011年的<a href="http://myrual.wordpress.com/">回顾</a>写很长很好。</p>
 ]]></content>
   </entry>
   
